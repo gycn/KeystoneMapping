@@ -30,15 +30,7 @@
 <body>
 
 <div>
-<!-- legend -->
-    <div class="modal-dialog" id="legend_modal" role="document">
-        <div class="modal-content">
-            <div class="modal-body">
-                <h3>Legend</h3>
-                <ul id="legend_body"></ul>
-            </div>
-        </div>
-    </div>
+
 <!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="false">
   <div class="modal-dialog" role="document">
@@ -101,9 +93,18 @@
 </section>
 
 <div class="container-fluid" style="width:100%">
-  <div class="row" id="map_container">
-
-  </div>
+    <!-- legend -->
+    <div class="row">
+        <div class="modal-dialog" id="legend_modal" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h3>Legend</h3>
+                    <ul id="legend_body"></ul>
+                </div>
+            </div>
+        </div>
+        <div id="map_container"></div>
+    </div>
 </div>
 <div class = "slider-wrapper">
 <div id="slider"></div>

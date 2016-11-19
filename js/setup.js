@@ -178,21 +178,15 @@ function plot_points(id, cls, projection, data, click_func) {
     .data(data.features)
     .enter()
     .append("path")
-<<<<<<< HEAD
-    .attr("class", "sd_milepost")
-    .attr("d", sd_milepost)
-    .on("click", sd_milepost_clicked)
-    .call(drag);
-
-=======
+    .call(drag)
     .attr("d", projection)
     .attr("class", cls)
     .on("click", click_func);
 }
+
 function keystone_pipeline_clicked(d) {
 }
 function dakota_access_pipeline_clicked(d) {
->>>>>>> a347e87f3e72b075489edb07eca58722b22c0d10
 }
 
 function phase4_pipeline_clicked(d) {
