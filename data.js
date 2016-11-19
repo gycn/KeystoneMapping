@@ -32,7 +32,7 @@ nv.addGraph(function() {
 
     nv.utils.windowResize(
             function() {
-                chart.update();
+                
             }
         );
 
