@@ -1,4 +1,5 @@
 function setupMap() {
+
 var width = $('#map_container').width(),
     height = $(window).height(),
     centered;
@@ -44,6 +45,14 @@ var sd_milepost = d3.geo.path()
     .projection(projection)
     .pointRadius(3);
 
+
+var point_types = ['.keystone_pipeline_path', '.dakota_access_pipeline_path', 
+                '.phase4_pipeline_path', '.waterbody', '.waterwell',
+                '.fraccident', '.indian_reservation', '.oilspill', '.sd_milepost']
+
+var point_paths = [keystone_pipeline, dakota_access_pipeline, phase4_pipeline, waterbody, waterwell, 
+              fraccident, indian_reservation, oilspill, sd_milepost]
+
 var svg = d3.select("#map_container").append("svg")
     .attr("width", width)
     .attr("height", height);
@@ -53,6 +62,16 @@ svg.append("rect")
     .attr("width", width)
     .attr("height", height)
     .on("click", center);
+
+d3.select("body")
+  .on("touchstart", nozoom)
+  .on("touchmove", nozoom)
+
+var drag = d3.behavior.zoom().on("zoom", dragged).translate([width / 2, height / 2]);
+
+svg
+    .call(drag)
+    .call(drag.event);
 
 queue()
     .defer(d3.json, "data/us.json")
@@ -67,27 +86,30 @@ queue()
     .defer(d3.json, "data/sd_mileposts.geojson")
     .await(ready);
 
+
 function ready(error, us, keystone, dakota_access, phase4, 
                 waterbodies, waterwells, fraccidents, 
                 indian_reservations, oilspills, sd_mileposts) {
   if (error) throw error;
+
   svg.append("g")
       .attr("id", "states")
     .selectAll("path")
       .data(topojson.feature(us, us.objects.states).features)
     .enter().append("path")
+      .attr("class", "state-path")
       .attr("d", path)
       .attr("id", function(d) {
         return d.id;
       })
-      .on("click", state_clicked);
+      .on("click", state_clicked)
 
   svg.append("g")
       .attr("id", "borders")
       .append("path")
       .datum(topojson.mesh(us, us.objects.states, function(a, b) { return a !== b; }))
       .attr("id", "borders-path")
-      .attr("d", path);
+      .attr("d", path)
 
   svg.append("g")
     .attr("id", "keystone_pipeline")
@@ -96,7 +118,7 @@ function ready(error, us, keystone, dakota_access, phase4,
     .enter()
     .append("path")
     .attr("d", keystone_pipeline)
-    .attr("class", "pipeline_path keystone_pipeline_path");
+    .attr("class", "pipeline_path keystone_pipeline_path")
 
   svg.append("g")
     .attr("id", "dakota_access_pipeline")
@@ -105,7 +127,7 @@ function ready(error, us, keystone, dakota_access, phase4,
     .enter()
     .append("path")
     .attr("d", phase4_pipeline)
-    .attr("class", "pipeline_path dakota_access_pipeline_path");
+    .attr("class", "pipeline_path dakota_access_pipeline_path")
 
   svg.append("g")
     .attr("id", "phase4_pipeline")
@@ -114,7 +136,7 @@ function ready(error, us, keystone, dakota_access, phase4,
     .enter()
     .append("path")
     .attr("d", phase4_pipeline)
-    .attr("class", "pipeline_path phase4_pipeline_path");
+    .attr("class", "pipeline_path phase4_pipeline_path")
 
   svg.append("g")
     .attr("id", "waterbodies")
@@ -124,7 +146,7 @@ function ready(error, us, keystone, dakota_access, phase4,
     .append("path")
     .attr("class", "waterbody")
     .attr("d", waterbody)
-    .on("click", waterbody_clicked);
+    .on("click", waterbody_clicked)
 
   svg.append("g")
     .attr("id", "waterwells")
@@ -134,7 +156,7 @@ function ready(error, us, keystone, dakota_access, phase4,
     .append("path")
     .attr("class", "waterwell")
     .attr("d", waterwell)
-    .on("click", waterwell_clicked);
+    .on("click", waterwell_clicked)
 
   svg.append("g")
     .attr("id", "fraccidents")
@@ -144,7 +166,7 @@ function ready(error, us, keystone, dakota_access, phase4,
     .append("path")
     .attr("class", "fraccident")
     .attr("d", fraccident)
-    .on("click", fraccident_clicked);
+    .on("click", fraccident_clicked)
 
   svg.append("g")
     .attr("id", "oilspills")
@@ -154,7 +176,7 @@ function ready(error, us, keystone, dakota_access, phase4,
     .append("path")
     .attr("class", "oilspill")
     .attr("d", oilspill)
-    .on("click", oilspill_clicked);
+    .on("click", oilspill_clicked)
 
   svg.append("g")
     .attr("id", "sd_mileposts")
@@ -164,7 +186,8 @@ function ready(error, us, keystone, dakota_access, phase4,
     .append("path")
     .attr("class", "sd_milepost")
     .attr("d", sd_milepost)
-    .on("click", sd_milepost_clicked);
+    .on("click", sd_milepost_clicked)
+    .call(drag);
 }
 
 function state_clicked(d) {
@@ -192,12 +215,12 @@ function oilspill_clicked(d) {
 }
 
 function sd_milepost_clicked(d) {
-  
+
 }
 
 function center(d) {
+  if (d3.event.defaultPrevented) return;
   var x, y, k;
-
   if (d && centered !== d) {
     var centroid = path.centroid(d);
     x = centroid[0];
@@ -219,6 +242,23 @@ function center(d) {
       .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")scale(" + k + ")translate(" + -x + "," + -y + ")")
       .style("stroke-width", 1.5 / k + "px");
 }
+
+function nozoom() {
+  d3.event.preventDefault();
+}
+
+function dragged() {
+  projection
+      .translate(drag.translate())
+
+  d3.selectAll(".state-path").attr("d", path);
+  d3.select("#borders-path").attr("d", path)
+
+  for (var i = 0; i < point_types.length; i++) {
+    d3.selectAll(point_types[i]).attr("d", point_paths[i]);
+  }
+}
+
 
 $("g").click(function (e) {
       e.stopPropagation();
