@@ -175,6 +175,13 @@ function ready(error, us, keystone, dakota_access, phase4,
         }
 
     });
+    $(".close").click(function (e) {
+      $('.date').empty();
+          $('.location').empty();
+          $('.gallons').empty();
+          $('#myModal').modal('hide');
+      
+    });
 
   svg.append("g")
     .attr("id", "sd_mileposts")
