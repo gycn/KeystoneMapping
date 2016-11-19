@@ -11,6 +11,9 @@ var projection = d3.geo.albersUsa()
 var path = d3.geo.path()
     .projection(projection);
 
+var pipeline_path = d3.geo.path()
+    .projection(projection);
+
 var svg = d3.select("body").append("svg")
     .attr("width", width)
     .attr("height", height);
@@ -38,6 +41,18 @@ d3.json("data/us.json", function(error, us) {
       .datum(topojson.mesh(us, us.objects.states, function(a, b) { return a !== b; }))
       .attr("id", "state-borders")
       .attr("d", path);
+});
+
+d3.json("data/keystoneroute.geojson", function(error, geodata) {
+  if (error) return console.log(error); //unknown error, check the console
+  g.append("g")
+    .attr("id", "pipeline")
+    .selectAll(".pipeline_path")
+    .data(geodata.features)
+    .enter()
+    .append("path")
+    .attr("d", pipeline_path)
+    .attr("class", "pipeline-path");
 });
 
 function clicked(d) {
