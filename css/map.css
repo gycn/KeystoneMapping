@@ -130,3 +130,34 @@ left: auto; /* <-- Reset the default left value */
   right: 20px;
   height:300px;
 }
+#legend_modal{
+  position:absolute;
+  top:0;
+  display: block;
+  left:30px;
+  width:300px;
+}
+#legend_modal .modal-content {
+  width:230px;
+  border-color: white;
+}
+
+#legend_modal .modal-content h3 {
+  margin-top:0;
+}
+
+#legend_body {
+  padding: 0;
+  list-style:none;
+}
+
+#legend_body li label {
+  font-size:12px;
+  margin:0;
+  font-weight:normal;
+}
+
+#legend_body li label input {
+  margin-right:5px;
+}
+
