@@ -160,8 +160,15 @@ function ready(error, us, keystone, dakota_access, phase4,
         }
       })
   }
-
-    d3.select('#slider').call(d3.slider().min(0).max(10));
+  
+    
+    $(".close").click(function (e) {
+      $('.date').empty();
+          $('.location').empty();
+          $('.gallons').empty();
+          $('#myModal').modal('hide');
+      
+    });
 }
 
 function plot_points(id, cls, projection, data, click_func) {
