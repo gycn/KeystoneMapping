@@ -1,76 +1,68 @@
 function setupMap() {
-//Map dimensions (in pixels)
 var width = $(window).width(),
     height = $(window).height(),
-    centered  ;
-scale0 = width;
-//Map projection
+    centered;
+scale0=width
+
 var projection = d3.geo.albersUsa()
     .scale(scale0)
-    .translate([width/2,height/2]) //translate to center the map in view
+    .translate([width / 2, height / 2]);
 
-//Generate paths based on projection
-var state_path = d3.geo.path()
+var path = d3.geo.path()
     .projection(projection);
 
-var pipeline_path = d3.geo.path()
-        .projection(projection);
-//Create an SVG
 var svg = d3.select("body").append("svg")
     .attr("width", width)
     .attr("height", height);
 
-//Group for the map features
-var features = svg.append("g")
-    .attr("class","features");
+svg.append("rect")
+    .attr("class", "background")
+    .attr("width", width)
+    .attr("height", height)
+    .on("click", clicked);
 
-//Create zoom/pan listener
-//Change [1,Infinity] to adjust the min/max zoom scale
-var zoom = d3.behavior.zoom()
-    .scaleExtent([1, 8])
-    .on("zoom",zoomed);
+var g = svg.append("g");
 
-svg.call(zoom);
+d3.json("data/us.json", function(error, us) {
+  if (error) throw error;
 
-d3.json("data/us.geojson",function(error,geodata) {
-  if (error) return console.log(error); //unknown error, check the console
-  console.log(geodata)
-  //Create a path for each map feature in the data
-  features.selectAll(".state-path")
-    .data(geodata.features)
-    .enter()
-    .append("path")
-    .attr("d",state_path)
-    .attr("class", "state-path")
-    .on("click",clicked_state);
+  g.append("g")
+      .attr("id", "states")
+    .selectAll("path")
+      .data(topojson.feature(us, us.objects.states).features)
+    .enter().append("path")
+      .attr("d", path)
+      .on("click", clicked);
 
+  g.append("path")
+      .datum(topojson.mesh(us, us.objects.states, function(a, b) { return a !== b; }))
+      .attr("id", "state-borders")
+      .attr("d", path);
 });
 
-d3.json("data/keystoneroute.geojson", function(error, geodata) {
-  if (error) return console.log(error); //unknown error, check the console
-  features.selectAll(".pipeline-path")
-    .data(geodata.features)
-    .enter()
-    .append("path")
-    .attr("d", pipeline_path)
-    .attr("class", "pipeline-path")
-    .on("click",clicked_path);
-});
+function clicked(d) {
+  var x, y, k;
 
-// Add optional onClick events for features here
-// d.properties contains the attributes (e.g. d.properties.name, d.properties.population)
-function clicked_state(d,i) {
+  if (d && centered !== d) {
+    var centroid = path.centroid(d);
+    x = centroid[0];
+    y = centroid[1];
+    k = 4;
+    centered = d;
+  } else {
+    x = width / 2;
+    y = height / 2;
+    k = 1;
+    centered = null;
+  }
 
-}
+  g.selectAll("path")
+      .classed("active", centered && function(d) { return d === centered; });
 
-function clicked_path(d, i) {
-
-}
-
-//Update map on zoom/pan
-function zoomed() {
-  features.attr("transform", "translate(" + zoom.translate() + ")scale(" + zoom.scale() + ")")
-      .selectAll("path").style("stroke-width", 1 / zoom.scale() + "px" );
+  g.transition()
+      .duration(750)
+      .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")scale(" + k + ")translate(" + -x + "," + -y + ")")
+      .style("stroke-width", 1.5 / k + "px");
 }
 
 }
