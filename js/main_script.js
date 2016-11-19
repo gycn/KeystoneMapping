@@ -1,6 +1,6 @@
 $(document).ready(function() {
   setupMap();
-  $(".features").click(function (e) {
+  $("g").click(function (e) {
   		e.stopPropagation();
         if (document.getElementById("mySidenav").style.width == "250px"){
         	document.getElementById("mySidenav").style.width = "0";
