@@ -1,0 +1,802 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Fraccidents Map</name>
+	<open>1</open>
+	<description><![CDATA[The country is in the midst of an unprecedented oil and gas drilling boom -- brought on by a controversial technology called hydraulic fracturing or "fracking." Along with this fracking-enabled oil and gas rush have come troubling reports of poisoned drinking water, polluted air, mysterious animal deaths, industrial disasters and explosions. We call them "Fraccidents." This map is a sampling of some of the high profile incidents related to the country's oil and gas drilling boom.<br><br>For more information and resources on fracking, visit Earthjustice's campaign page "Fracking Gone Wrong, Finding a Better Way":  http://earthjustice.org/fracking]]></description>
+	<StyleMap id="icon-ci-1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-ci-1-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-ci-1-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="icon-ci-1-normal">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>/Users/Shehan/Downloads/icon-1_0.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="icon-ci-1-highlight">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>/Users/Shehan/Downloads/icon-1_0.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<Folder>
+		<name>Fraccidents</name>
+		<open>1</open>
+		<Placemark>
+			<name>DISH, TX</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/2MggRKZqs09bTED6PuzzEZSxM4VtL3N71HbpnPsG0YT6KqaOuOL_c4b5UEvN9kancGyz8V1isbWenO3ZYE8ky3mON-Od9jhFwl9LBy4ADmbgIGpBf1ssonpF0mtBhhnm" height="200" width="auto" /><br><br>Dish, Texas	<br>In 2006, a natural gas compressor station was built on the edge of Dish, Texas to transport gas extracted nearby to market.<br>Today, there are 11 compressors in this tiny, rural town in north Texas and they are releasing pollutants into the air day and night.	<br>				<br>Water in the Smith family home. The filter was changed just five days ago. (DRC / Barron Ludlum) (http://www.dentonrc.com/sharedcontent/dws/drc/localnews/stories/DRC_Filmy_Water_0606.75b6f6a3.html)	<br>Residents there have complained of an unpleasant, sulfurous stench and have reported ailments such as headaches, nausea, eye irritation and respiratory problems. The noise of the compressor stations has also ruptured several residents' ear drums.<br>An air quality study ordered by the town revealed extremely high levels of both carcinogens and neurotoxins. Of particular concern is the high levels of the carcinogen benzene detected in the air near the compressors.<br>One family's water turned gray and filled with a fine, slimy sediment after a well was dug several hundred feet from their home. The family has installed a filtration system in their home and must change the filter every four or five days due to the buildup of mysterious sediment.<br>Another resident mysteriously had one horse die and two others get sick. He blames pollution from the compressor stations.	<br>		<br>Source: "Health Issues Follow Natural Gas Drilling In Texas." (http://www.npr.org/templates/story/story.php?storyId=120043996) John Burnett. NPR. November 3, 2009.		<br>Source: "Filmy water vexes family." (http://www.dentonrc.com/sharedcontent/dws/drc/localnews/stories/DRC_Filmy_Water_0606.75b6f6a3.html) Peggy Heinkel-Wolfe. Denton Record-Chronicle. June 5, 2010.]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh3.googleusercontent.com/proxy/2MggRKZqs09bTED6PuzzEZSxM4VtL3N71HbpnPsG0YT6KqaOuOL_c4b5UEvN9kancGyz8V1isbWenO3ZYE8ky3mON-Od9jhFwl9LBy4ADmbgIGpBf1ssonpF0mtBhhnm</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-97.301407,33.132899,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hill County, TX</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/p5hboCDqNrtGv1iqqFL5jBafNESLVjmdKGDSD2pkX34lQgV77pM8DGOPu1za6-mvsXjyFoFLVHLth-dl8DQ2JQ94E7GIzubFRW3NINvLU3j2lltWP-txkOQzaY1C7UYIRA" height="200" width="auto" /><br><br>Hill County, Texas	<br>In December 2007, in rural Hill county Texas, just outside of Grandview, three families had their water supplies contaminated after Williams Production Gulf Coast Co. drilled two nearby gas wells.	<br>				<br>Sayers: A hydrologist "told me not to use [the water] for anything ... not even for watering the grass." (Jimmy Alford / Fort Worth Weekly) (http://archive.fwweekly.com/content.asp?article=6885)	<br>All three families live within a couple hundred yards of the well sites and draw their water from an underground aquifer.<br>The Harris family's water problems arose just two or three days after Williams hydraulically fractured one of those wells.<br>At all three of the affected homes, the water smells strongly of sulfur and causes itchiness if used for showering.<br>Williams tested the water and said it was normal, but a consultant hired by the Sayers family advised them that the company had improperly tested the water.  So the Sayers family hired two companies to test their water.<br>The tests, conducted several weeks apart, both showed elevated ions, sulphates, and the presence of toluene. Toluene is a hydrocarbon that never naturally occurs in aquifers and is toxic to humans and animals.	<br>				<br>Sayers makes three trips a week to get water for his family. (Jimmy Alford / Fort Worth Weekly) (http://archive.fwweekly.com/content.asp?article=6885)	<br>The Beadle family had three goats, two kids and a lama die within a few days of each other.<br>All families now truck in their water.	<br>		<br>Source: "Water Foul." (http://archive.fwweekly.com/content.asp?article=6885) Peter Gorman. Fort Worth Weekly. April 30, 2008.<br><br><img src="https://lh3.googleusercontent.com/proxy/WB4X6WEBo8UNeHEx9gjB3HYN4wFuMof6OG_qvLAmMmNpiSyKOq3_IwVN3RR5PVypFCNRzwF8TCqQpbxhVyISDUc19cUuJPd6RksJjmRBqahDm6__x6tCr_k82Hh_LaM6ig" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh5.googleusercontent.com/proxy/p5hboCDqNrtGv1iqqFL5jBafNESLVjmdKGDSD2pkX34lQgV77pM8DGOPu1za6-mvsXjyFoFLVHLth-dl8DQ2JQ94E7GIzubFRW3NINvLU3j2lltWP-txkOQzaY1C7UYIRA https://lh3.googleusercontent.com/proxy/WB4X6WEBo8UNeHEx9gjB3HYN4wFuMof6OG_qvLAmMmNpiSyKOq3_IwVN3RR5PVypFCNRzwF8TCqQpbxhVyISDUc19cUuJPd6RksJjmRBqahDm6__x6tCr_k82Hh_LaM6ig</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-97.17902600000001,32.062177,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Johnson County, TX</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/tShAkSMUZb6cH8cgMBRWzAs107g86zsKlKDYzCQkOzmniYS7nKK5tfgOxnbU8qrNd_XADe6JMtoQYDBGy8yJGSQNqDJLYYnr9wnRZOsTzwHV9VQyq2sFT5NzsWF90LBe_IdY" height="200" width="auto" /><br><br>The Scoma family in rural Johnson County, Texas, filed a lawsuit against Chesapeake Energy in June 2010, claiming their water became contaminated after the company began hydraulic fracturing operations nearby.	<br><br>The water from their tap usually runs clear, but at times turns an orange-yellow color, gives off a foul odor, and tastes awful. The Scoma family had their water tested in 2008 and 2009 and say those tests showed elevated levels of benzene and other petroleum by-products.<br>The Scoma's are afraid to drink their well water and now purchase bottled water.	<br><br>Source: "Local Couple Claims Gas Drilling Tainted Water." Melissa Newton. CBS 11/TXA 21 (Fort Worth). June 18, 2010.<br><br>In July 2013, two families filed a lawsuit for damage to their homes and property caused by earthquakes and seismic activity as a result of drilling by EOG Resources, Enterprise Crude Oil, and subsidiaries of Royal Dutch Shell and Sunoco Logistics. The walls of Ed Specht's house are cracking, and the concrete floor in his bedroom is broken 32 feet across. He claims the damage is a result of the dozen hydraulic fracturing wells under his property.<br><br>Source: "The fracking-earthquake connection". Jordan Fletcher. The Dallas Morning News. December 6, 2013. Web. Accessed July 14, 2015.<br>http://www.dallasnews.com/opinion/sunday-commentary/20131206-the-fracking-earthquake-connection.ece]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh4.googleusercontent.com/proxy/tShAkSMUZb6cH8cgMBRWzAs107g86zsKlKDYzCQkOzmniYS7nKK5tfgOxnbU8qrNd_XADe6JMtoQYDBGy8yJGSQNqDJLYYnr9wnRZOsTzwHV9VQyq2sFT5NzsWF90LBe_IdY</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-97.35165599999999,32.413357,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cleburne, TX</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/Hn1gAx4CWrAkFFD3X_6Tr49Wyc6wou3jBiScACspcnHC2Aj5Zy4LSQ4W64z3CCzsZVA5LD9KjVtmgraHuM3oP37vwURe6YmDxueqYyb_b4Y9q1J3LfCKZhcy-6TQfBo" height="200" width="auto" /><br><br>Cleburne, Texas	<br>A spate of small earthquakes (in the 2 to 3 range on the seismic scale) in May 2009 unsettled residents in the small town of Cleburne, Texas, which had never before experienced any earthquakes in its 142-year history.	<br>				<br>Natural gas drilling rig. (Helen Slottje / Flickr) (http://www.flickr.com/photos/arimoore/4142107176/in/photostream/)	<br>Many residents, including the Mayor, believe hydraulic fracturing of nearby natural gas wells is to blame.<br>More than 200 wells have been drilled within the town's 30-square-mile border in recent years and virtually all of them have undergone hydraulic fracturing.<br>One University of Texas researcher believes drilling is to blame but others are not yet ready to make that conclusion.	<br>		<br>Source: "Temblors Rattle Texas Town." (http://online.wsj.com/article/NA_WSJ_PUB:SB124476331270108225.html) Ben Casselman. Wall Street Journal. June 12, 2009.		<br>Source: "Drilling might be culprit behind Texas earthquakes." (http://www.usatoday.com/tech/science/2009-06-15-drilling-earthquake_N.htm) Jeff Carlton. Associated Press. June 15, 2009.]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh4.googleusercontent.com/proxy/Hn1gAx4CWrAkFFD3X_6Tr49Wyc6wou3jBiScACspcnHC2Aj5Zy4LSQ4W64z3CCzsZVA5LD9KjVtmgraHuM3oP37vwURe6YmDxueqYyb_b4Y9q1J3LfCKZhcy-6TQfBo</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-97.386684,32.347644,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Dallas/Fort Worth International Airport, TX</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/OC7hyUgu0X30Y8Jyp0fsirs50j34oh43aB1_XI4xWWaIrbinJEgLpXOudd_zvSrGhHlhF-6N6ZFv7A0hgWQmaoiJPwloXdPrVRjdBl0gL93IWNyH8YuZ35rJi8YYDSs" height="200" width="auto" /><br><br>DFW International Airport, Texas	<br>Wells drilled through the Barnett Shale by Chesapeake Energy Corp. may have caused earthquakes in Texas, according to the company and University of Texas scientists.	<br>				<br>DFW International Airport. (Benny / Flickr) (http://www.flickr.com/photos/bennylee/5585514986/in/photostream/)	<br>The wells that have been linked to earthquakes were drilled on the South end of the Dallas/Fort Worth International Airport.<br>Those wells were used to dispose of the saltwater byproduct of hydraulic fracturing.<br>The area near the airport wells has no history of seismic activity.	<br>		<br>Source: "Chesapeake Waste Wells May Have Caused Earthquakes." (http://www.bloomberg.com/apps/news?pid=newsarchive&sid=akyt.PqERmjw ) Thomas Korosec and Jim Polson. Bloomberg. August 14, 2009.]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh4.googleusercontent.com/proxy/OC7hyUgu0X30Y8Jyp0fsirs50j34oh43aB1_XI4xWWaIrbinJEgLpXOudd_zvSrGhHlhF-6N6ZFv7A0hgWQmaoiJPwloXdPrVRjdBl0gL93IWNyH8YuZ35rJi8YYDSs</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-97.03949,32.87036,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Killdeer, ND</name>
+			<description><![CDATA[Killdeer, North Dakota	<br>In September of 2010, a blowout occurred at a natural gas platform in Killdeer, North Dakota, causing it to leak about 246 barrels of oil and 2,220 barrels of water.<br>The company responsible, Denbury Resources Inc., plugged the well contained the oil and water with a dike and recovered it.	<br>		<br>Source: "Killdeer oil spill being cleaned up, officials investigate." (http://www.bismarcktribune.com/news/state-and-regional/article_af6a8bd2-b712-11df-b4ff-001cc4c03286.html) Lauren Donovan. Bismarck Tribune. September 2, 2010.		<br>Source: "Killdeer spill tests ND." (http://www.bismarcktribune.com/news/opinion/editorial/article_cddc11ca-bb50-11df-9e61-001cc4c002e0.html) Bismarck Tribune Editorial Board. Bismarck Tribune. September 29, 2010.                                                                                             Also in January 2012, 21-year-old Dustin Bergsing was found dead at a Marathon Oil Corp. Buffalo 34-12H well pad. His body was slumped below the open hatch of a tank of Bakken Shale crude oil -- it was Bergsing's job to pop the hatch and record how much was inside. An autopsy found he died of "hydrocarbon poisoning due to inhalation of petroleum vapors".<br><br>Source: "Poisoned by the shale? Investigations leave questions in oil tank deaths". Mike Soraghan. EnergyWire. October 27, 2014.<br>http://www.eenews.net/special_reports/danger_zone/stories/1060007896                                                                                                                                        Oil wells were drilled along Loren Jepson's ranch on Killdeer Mountain. Clay mud and silt from the drill pad were running into his stock dam less than 50 yards downhill. The spring melt carried a stream of mud into the water he uses for livestock and to water his yard and garden. Jepson paid an attorney and fought a long legal battle to keep oil wells from being drilled alongside his ranch, but he lost.<br><br>Source: "Killdeer rancher has muddy spring mess from unwanted wells". Lauren Donovan. Bismarck Tribune. March 29, 2013. Web. Accessed July 23, 2015.<br>http://bismarcktribune.com/bakken/killdeer-rancher-has-muddy-spring-mess-from-unwanted-wells/article_06c4c334-98a7-11e2-b731-001a4bcf887a.html]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-102.752895,47.36847800000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wise County, TX</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/tShAkSMUZb6cH8cgMBRWzAs107g86zsKlKDYzCQkOzmniYS7nKK5tfgOxnbU8qrNd_XADe6JMtoQYDBGy8yJGSQNqDJLYYnr9wnRZOsTzwHV9VQyq2sFT5NzsWF90LBe_IdY" height="200" width="auto" /><br><br>Wise County, Texas	<br>				<br>In Wise County, Catherine and Brett Bledsoe report that their drinking water became contaminated in 2010 soon after hydraulic fracturing began on two natural gas wells bordering their property.<br>The water stung their eyes during showers, and their animals refused to drink the water.<br>Private water testing found benzene, a known carcinogen, at double the levels deemed safe by the EPA.	<br>		<br>Source: "Unwell water." (http://www.wcmessenger.com/2010/news/unwell-water-drilling-leaves-a-bad-taste-for-some/) Brandon Evans. Wise County Messenger. October 3, 2010.]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh4.googleusercontent.com/proxy/tShAkSMUZb6cH8cgMBRWzAs107g86zsKlKDYzCQkOzmniYS7nKK5tfgOxnbU8qrNd_XADe6JMtoQYDBGy8yJGSQNqDJLYYnr9wnRZOsTzwHV9VQyq2sFT5NzsWF90LBe_IdY</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-97.583656,33.305569,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tarrant County, TX</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/tShAkSMUZb6cH8cgMBRWzAs107g86zsKlKDYzCQkOzmniYS7nKK5tfgOxnbU8qrNd_XADe6JMtoQYDBGy8yJGSQNqDJLYYnr9wnRZOsTzwHV9VQyq2sFT5NzsWF90LBe_IdY" height="200" width="auto" /><br><br>Tarrant County, TX	<br>				<br>Tarrant County Commissioner J.D. Johnson, who lives in the Barnett shale area, reported groundwater contamination immediately after two gas wells on his property were hydraulically fractured in 2005.<br>His water turned a dark gold color and had sand in it.	<br>		<br>Source: "The Barnett Shale search for facts on fracking." (http://www.star-telegram.com/2010/09/04/2445005/the-barnett-shale-search-for-facts.html) Jack Smith. Fort Worth Star-Telegram. September 4, 2010.]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh4.googleusercontent.com/proxy/tShAkSMUZb6cH8cgMBRWzAs107g86zsKlKDYzCQkOzmniYS7nKK5tfgOxnbU8qrNd_XADe6JMtoQYDBGy8yJGSQNqDJLYYnr9wnRZOsTzwHV9VQyq2sFT5NzsWF90LBe_IdY</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-97.07450900000001,32.818441,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bouttineua, ND</name>
+			<description><![CDATA[In July 2011, workers for Petro Harvester, a small, Texas-based oil company, noticed a swath of dead vegetation in a field near one of the company’s saltwater disposal lines. The company reported the spill the next day, estimating that 12,600 gallons of brine had leaked. Later state officials who assessed the spill found that it had sterilized about 24 acres of land. The assessment estimated that 2 million gallons of brine was leaked; however, they did not record the new estimate. If they had, it would have made it the largest spill recorded in a state: state annals did not change and kept the 12,600 gallon figure.<br><br>Source: “North Dakota’s Oil Boom Brings Damage Along With Prosperity.” Nicholas Kusnetz. ProPublica. June 7, 2012.]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-100.445294,48.82698299999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fort Worth, TX</name>
+			<description><![CDATA[Chesapeake drilling operations: over 15 dangerous compounds were detected on a Fort Worth home in April 2010. Certain sulfur compounds were above short term and long term screening levels, and carbon disulfide levels were 300 times higher than the EPA’s normal for ambient urban air. A resident of the tested area, suffered severe nosebleeds, nausea and headaches.<br><br>Source: “Voices: Deborah Rogers.” EarthWorks. May 2010.<br><br>Mary Kelleher lives near a Chesapeake gas well and a 30-inch Enterprise pipeline. Enterprise never got a city permit for the pipeline. Sinkholes appeared on her property, and the pipeline obstructed the area's natural drainage pattern, causing severe flooding. Farm animals, unable to reach higher ground, drowned by the dozens.<br><br>Source: "Damned: The waters have receded, but flooding near Ranol Mill isn't solved". Lisa Maria Garza. Fort Worth Weekly. July 25, 2012. Web. Accessed July 23, 2015.<br>http://www.fwweekly.com/2012/07/25/dammed/]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-97.312088,32.719132,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lumberton, TX</name>
+			<description><![CDATA[In April 2011, a natural gas well exploded in Lumberton on state park property which caused a small fire to burn five acres of the park. Four workers were on the well when it exploded, though none were injured. The explosion was caused by escaping gas vapor which triggered the flash fire, and then the explosion, according to the Texas Department of Public Safety. The Texas Park and Wildlife Department and drilling company Choice Exploration of Arlington have a surface use agreement that allows the company to drill in the park, according to the article. <br><br>Source: “Four workers escape from burning natural gas well.” Teresa Mioli. Beaumont Enterprise. April 1, 2011.]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-94.201241,30.266777,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Nixon, TX</name>
+			<description><![CDATA[In May 2012, an explosion at Vann Energy Company in South Texas left two workers with burns.  Officials from the sheriff’s office confirmed that the workers were injured while cleaning a hydraulic fracking tank when the tank exploded.  The workers suffered second-degree burns and were airlifted to a nearby hospital. Nearby homes were also evacuated during the accident. Three months prior to the incident, the Occupational Health and Safety Administration had cited Vann Energy with 17 safety violations, including failure to provide workers with proper protective clothing.<br><br>Source: “South Texas fracking explosion injures two.” Law Firm of Alton C. Todd. May 24, 2012.  <br><br>Source: “2 workers burned in South Texas fracking explosion.” Associated Press via Dallas News. May 16, 2012 <br><br>Source: Reuters, "UPDATE 1-Two workers hurt in Texas fracking tank site blast," May 16, 2012]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-97.765446,29.267607,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Pearsall, TX</name>
+			<description><![CDATA[In January 2012, an explosion and fire at an Eagle Ford disposal well injured three people.  An  oil tank exploded and caught fire, burning for over an hour and calling 12 trucks and 33 firefighters (all volunteer) to the scene. The site was used to store wastewater from fracking. The growing oil boom in the Eagle Ford Shale has residents concerned: even with a rise in fracking explosions and fires, the volunteer fire department hasn’t received additional funding. <br>Later following the incident, in April 2012 the Occupational Health and Safety Administration issued ten citations for serious violations.<br><br>Source: “Explosion and Fire at Eagle Ford Disposal Well in Pearsall.” Terrence Henry. NPR StateImapact: Texas. January 20, 2012.]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-99.09779499999999,28.892704,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Alexander, ND</name>
+			<description><![CDATA[In November 2013, an explosion ignited 13 tanks and spilled 2,700 barrels of salt water and oil southwest of Alexander.<br><br>Source: "Life in the boom". Curt Brown. Star Tribune (Mpls. - St. Paul). November 30, 2013.<br>http://www.lexisnexis.com.proxy.lib.duke.edu/lnacui2api/api/version1/getDocCui?oc=00240&hnsd=f&hgn=t&lni=59YV-28V1-DYRH-930Y&hns=t&perma=true&hv=t&hl=t&csi=270944%2C270077%2C11059%2C8411&secondRedirectIndicator=true<br><br>Also, in February 2014 approximately 250 barrels of brine spilled at an oil well site owned by RIM Operating Inc., three miles west of Alexander. The salt water came through the berm, a protective barrier, and ran into an iced-over drainage, which is a tributary to Lonesome Creek. <br><br>Source: "Alexander well site spills 250 barrels of salt water". Jessica Holdman. The Bismarck Tribune, February 11, 2014. LexisNexis Academic. Web. Accessed June 30, 2015.<br>http://www.lexisnexis.com.proxy.lib.duke.edu/lnacui2api/api/version1/getDocCui?lni=5BGW-4CK1-F039-F522&csi=270944,270077,11059,8411&hl=t&hv=t&hnsd=f&hns=t&hgn=t&oc=00240&perma=true]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-103.6548471,47.84069900000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Antler, ND</name>
+			<description><![CDATA[In a remote section of farm country in Bottineau county, landowner Mike Artz and his two neighbors discovered that a ruptured pipeline was spewing contaminated wastewater into his crop fields. In August 2013, state testing of the wetlands showed that chloride levels were so high they exceeded the range of the test strips. The North Dakota Department of Health estimated that between 400 to 600 barrels of wastewater, the equivalent of 16,800 to 25,200 gallons, had seeped into the ground.<br><br>Source: "In shadow of oil boom, North Dakota farmers fight contamination". Laura Gottesdiener. Aljazeera America. September 6, 2014.<br>http://america.aljazeera.com/articles/2014/9/6/north-dakota-wastewaterlegacy.html]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-101.282444,48.9709495,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Arnegard, ND</name>
+			<description><![CDATA[In March 2011, a fire started in an oil well while the well was being fracture treated, causing fracking fluids, a plume of natural gas and crude oil to escape from the well and ignite. Heavy snow around the fire was coated with a thick yellow residue, partly a crude oil mist, and officials said cleanup could entail a containment dike or moving the snow to a disposal location.<br><br>Source: "Oil fire keeps burning". Lauren Donovan. Bismarck Tribune. March 9, 2011.<br>http://www.lexisnexis.com.proxy.lib.duke.edu/lnacui2api/api/version1/getDocCui?lni=52BT-FS11-F039-F4H5&csi=270944,270077,11059,8411&hl=t&hv=t&hnsd=f&hns=t&hgn=t&oc=00240&perma=true]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-103.441,47.8078514,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Belfield, ND</name>
+			<description><![CDATA[In August 2014, a well site owned by Slawson Exploration Co. leaked an estimated 350 barrels of brine from a tank about 10 miles northwest of Belfield. The company did not report the leak until a week after it had occurred.<br><br>Source: "350-barrel brine spill reported near Belfield". The Dickinson Press, N.D. September 5, 2014. LexisNexus Academic. Web. Accessed June 30, 2015.<br>http://www.lexisnexis.com.proxy.lib.duke.edu/hottopics/lnacademic/?]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-103.2129478,46.8940734,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bowman County, ND</name>
+			<description><![CDATA[In September 2014, 2,000 barrels of source water, used for enhanced oil recovery, spilled from the Paynter Source Well owned by Denbury Onshore LLC as a result of a leak in the pipeline. The water flowed into a nearby creek and could not be recovered. Source water is higher in dissolved solids and minerals than fresh water.<br><br>Source: "FROM THE OIL FIELDS: Source water leaks from pipeline south of Marmarth". Bryce Martin. Bownman County Pioneer. September 12, 2014. Web. Accessed July 8, 2015.<br>http://www.bowmanextra.com/2014/09/12/oil-fields-source-water-leaks-pipeline-south-marmarth/]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-103.5598755,46.0989477,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Burke County, ND</name>
+			<description><![CDATA[In May 2013, Coby A Thibodeaux was killed at an Oasis Petroleum drill site after a payloader backed over him.<br><br>Source: "Man killed in drillsite incident". Kathrine Schmidt. Upstream. May 30, 2013. Web. Accessed July 22, 2015.<br>http://www.upstreamonline.com/live/article1328492.ece]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-102.4639893,48.77067250000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bowbells, ND</name>
+			<description><![CDATA[An oilfield spill involving equipment owned by OXY USA Inc. released contamination into a tributary of Stony Creek about 10 miles southwest of Bowbells in March of 2015. Equipment malfunction caused brine and oil to spray off the location, spilling about 60 barrels of brine and five barrels of oil.<br><br>Source: "Oilfield spill affect tributary in Burke County". Forum News Service. The Dickinson Press. March 13, 2015. Web. Accessed July 6, 2015.<br>http://www.thedickinsonpress.com/news/north-dakota/3699638-oilfield-spill-affects-tributary-burke-county]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-102.2645187,48.7868203,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cass County, ND</name>
+			<description><![CDATA[In December 2013, a mile-long train carrying crude oil collided with another train, triggering a series of explosions and sending toxic fumes into the air. A train carrying grain derailed first, and then knocked several cars of the crude oil train off adjoining tracks. A mushroom cloud of fire blasted into the sky and then black smoke covered the surrounding area. The flames created dark clouds that could be seen for miles. This explosion was the third accident in six months involving trains transporting North Dakota crude oil.<br><br>Source: "Casselton, ND, Evacuation Order Lifted after Fiery Train Collision". Anthony Castellano and Alex Perez. Good Morning America. December 31 2013. Web. Accessed July 16, 2015.<br>https://gma.yahoo.com/casselton-n-d-residents-urged-evacuate-oil-train-122129693--abc-news-topstories.html]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-97.2098032,46.9098557,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Crosby, ND</name>
+			<description><![CDATA[In May 2014, a brine spill occurred at a well site owned by Samson Resources Co. six miles southwest of Crosby. A valve leak caused a spray of brine; approximately 410 barrels were contained on the site and 15 barrels escaped onto cultivated land.<br><br>Source: The Bismarck Tribune, May 30, 2014. LexisNexis Academic. Web. Accessed June 30, 2015.<br>http://www.lexisnexis.com.proxy.lib.duke.edu/lnacui2api/api/version1/getDocCui?lni=5C9W-TSC1-JCM7-R3F5&csi=270944,270077,11059,8411&hl=t&hv=t&hnsd=f&hns=t&hgn=t&oc=00240&perma=true]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-103.3138847,48.90016080000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Dunn County, ND</name>
+			<description><![CDATA[In July 2012, a 21-year-old Montana man died of hydrocarbon poisoning at a Marathon Oil well site. He inhaled petroleum vapors while working.<br><br>Source: "Hydrocarbon poisoning blamed for N.D. oil worker death". Jessica Holdman. Bismarck Tribune. July 5, 2012. Web. Accessed July 26, 2015.<br>http://bismarcktribune.com/bakken/hydrocarbon-poisoning-blamed-for-n-d-oil-worker-death/article_71b31cc6-c716-11e1-88e1-001a4bcf887a.html]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-102.722168,47.2158371,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Dickinson, ND</name>
+			<description><![CDATA[In October 2013, a leak in an underground line sent 150 barrels of disposed salt water leaching into U.S. Forest Service land west of Dickinson.<br><br>Source: "Life in the boom". Curt Brown. Star Tribune (Mpls. - St. Paul). November 30, 2013.<br>http://www.lexisnexis.com.proxy.lib.duke.edu/lnacui2api/api/version1/getDocCui?oc=00240&hnsd=f&hgn=t&lni=59YV-28V1-DYRH-930Y&hns=t&perma=true&hv=t&hl=t&csi=270944%2C270077%2C11059%2C8411&secondRedirectIndicator=true]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-102.8522873,46.8796724,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Dickinson, ND</name>
+			<description><![CDATA[In February 2014, a pipeline near a well pad owned by C12 Energy leaked, causing approximately 148 barrels of brine and two barrels of oil to flow off the well pad and through a ditch onto newly annexed land on the north side of Dickinson.<br><br>Source: "Brine, oil spill reported north of Dickinson". Dakota Wire, The Bismarck Tribune. February 28, 2014.<br>http://www.lexisnexis.com.proxy.lib.duke.edu/lnacui2api/api/version1/getDocCui?lni=5BV7-YYR1-JCM7-R2WP&csi=270944,270077,11059,8411&hl=t&hv=t&hnsd=f&hns=t&hgn=t&oc=00240&perma=true]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-102.7899742,46.921076,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lake Sakakawea, ND</name>
+			<description><![CDATA[In December 2012, a Slawson Exploration Co. well near Lake Sakakawea spilled about 1,500 barrels of oils, gas and salt water into the surrounding area.<br><br>Source: "Oil well blowout controlled near Watford City". Lauren Donovan. The Bismarck Tribune, December 24, 2012. LexisNexis Academic. Web. Accessed June 30, 2015.<br>http://www.lexisnexis.com.proxy.lib.duke.edu/lnacui2api/api/version1/getDocCui?lni=56CX-JX31-DYNS-31V3&csi=270944,270077,11059,8411&hl=t&hv=t&hnsd=f&hns=t&hgn=t&oc=00240&perma=true]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-102.1014408,47.6448309,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Montrail County, ND</name>
+			<description><![CDATA[A worker was critically injured in an explosion at a Frontier drilling rig in September 2012. He was severely burned when a tank exploded. He was taken off life support when it was discovered that his injuries were far more extensive than was originally thought.<br><br>Source: "Man burned in N.D. oil rig explosion pronounced dead". Stephanie Grimes. KSL. September 14, 2012. Web. Accessed July 26, 2015.<br>http://www.ksl.com/?nid=148&sid=22140458]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-102.321167,48.2210129,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>McKenzie County, ND</name>
+			<description><![CDATA[In August 2012, an explosion at an oil well site between Alexander and Arnedgard severely burned two men. Bruce Ford, 52, and Rod Law, 48, were working at the well site during the explosion, and had to be transported by air ambulance to a burn center in St. Paul, Minn. The men were working on a well tank that contained gas fumes, and those fumes were somehow ignited, causing the explosion.<br><br>Source: "Explosion injures two at oil well site". Kate Ruggles. McKenzie County Farmer. August 29, 2012. Web. Accessed July 22, 2015.<br>http://www.watfordcitynd.com/?id=10&nid=1793]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-103.5821915,47.8193792,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Watford City, ND</name>
+			<description><![CDATA[In March 2014, one man was injured when a Nabors production rig caught fire near Watford City. The rig was on a Whiting Petroleum site. The initial cause of the fire is believed to be a pressure build up that caused material to escape and ignite.<br><br>Source: "Oil rig explodes near Watford City". Jerry Burnes. Williston Herald. March 26, 2014. Web. Accessed July 14, 2015.<br>http://www.willistonherald.com/news/oil-rig-explodes-near-watford-city/article_1c0cf71e-b4eb-11e3-88c4-001a4bcf887a.html                                                                                                                                  In January 2013, one worker was killed in an incident at a Halliburton North Dakota hydraulic fracturing facility. The victim, a 49-year-old Air Force veteran, died on site after a pipe, disconnected by increased pressure, struck him in the head. Other workers were hospitalized with injuries.<br><br>Source: “Minnesota Man Dies in ND Hydraulic Fracturing Accident.” Associated Press. January 21, 2013. <br>http://www.twincities.com/allheadlines/ci_22417840/minnesota-man-dies-nd-hydraulic-fracturing-accident/                                                                                                                                                                    In December 2012 a blowout occurred at an oil well owned by Newfield Exploration Co., spewing a geyser of oil, gas and salt water 95 feet into the air and spreading contamination more than a mile downwind from the well site.<br><br>Source: "Oil well blowout controlled near Watford City". Lauren Donovan. The Bismarck Tribune, December 24, 2012. LexisNexis Academic. Web. Accessed June 30, 2015.<br>http://www.lexisnexis.com.proxy.lib.duke.edu/lnacui2api/api/version1/getDocCui?lni=56CX-JX31-DYNS-31V3&csi=270944,270077,11059,8411&hl=t&hv=t&hnsd=f&hns=t&hgn=t&oc=00240&perma=true]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-103.282299,47.80894670000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>McKenzie County, ND</name>
+			<description><![CDATA[A corroded pipe at a well owned by Oasis Petroleum leaked 1,000 barrels of brine. According to the North Dakota Department of Health, an unknown amount of brine made its way into a nearby stream.<br><br>Source: "Pipe leaks 1,000 barrels of brine". The Bismarck Tribune, October 10, 2014. LexisNexis Academic. Web. Accessed June 30, 2015.<br>http://www.lexisnexis.com.proxy.lib.duke.edu/lnacui2api/api/version1/getDocCui?lni=5DBW-1741-F039-F1Y8&csi=270944,270077,11059,8411&hl=t&hv=t&hnsd=f&hns=t&hgn=t&oc=00240&perma=true]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-103.41259,47.77302180000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Renville County, ND</name>
+			<description><![CDATA[In January 2015, an estimated 25 barrels of oil and 820 barrels of brine (a byproduct of hydraulic fracturing that often contains heavy concentrations of salts, heavy metals and radioactive material) were spilled at an oil well site in Renville County.<br><br>Source: "Spill reported in Renville County". The Dickinson Press, N.D. January 15, 2015.<br>http://www.lexisnexis.com.proxy.lib.duke.edu/lnacui2api/api/version1/getDocCui?lni=5F2Y-7H91-JC6P-C209&csi=270944,270077,11059,8411&hl=t&hv=t&hnsd=f&hns=t&hgn=t&oc=00240&perma=true]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-101.6317749,48.86290790000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>South of Tioga, ND</name>
+			<description><![CDATA[In February 2014, an explosion and fireball occurred at a Hiland Partners compressor station south of Tioga, which rattled windows as far as 30 miles away.<br><br>Source: "Bakken Briefly - Feb. 26, 2014: Plant explosion raises questions". The Tioga Tribune. February 25, 2014. Web. Accessed July 15, 2015.<br>http://bismarcktribune.com/bakken/bakken-briefly---feb/article_f6d8de7a-9ea8-11e3-ba20-001a4bcf887a.html]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-102.9382038,48.37996969999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tioga, ND</name>
+			<description><![CDATA[In May 2014, the wellhead of a fracking site failed, causing leakage of oil, gas, and fracking fluid. The well, owned by Emerald Oil, continued to leak for days after the problem was identified. Tests taken at the site showed hydrogen sulfide levels at 20 parts per million.<br><br>Source: “North Dakota Oil Well Still Leaking Crude, Gas And Fracking Fluid Days After Spill”. Josh Wood. Huffington Post. May 13 2014.<br>http://www.huffingtonpost.com/2014/05/13/north-dakota-oil-well_n_5317000.html]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-102.9382038,48.397696,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Northwest of Tioga, ND</name>
+			<description><![CDATA[At a site 12 miles northwest of Tioga, about 500 barrels of brine spilled in February 2015. A portion escaped the site, and according to health officials it impacted a nearby wetland. A second spill occurred about 15 miles northwest of Tioga, and involved about 460 barrels of brine. Health officials say that this spill may also impact nearby wetlands.<br><br>Source: "Five significant oil-related spills reported over weekend in N.D." Amy Dalrymple. Grand Forks Herald. February 17, 2015. Web. Accessed July 6, 2015.<br>http://www.grandforksherald.com/news/region/3681616-five-significant-oil-related-spills-reported-over-weekend-nd]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-102.9642963,48.41843540000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Watford City, ND</name>
+			<description><![CDATA[An oil well blowout caused 15 workers to flee for safety in February 2014. The accident occurred after a piece of equipment failed at a well about seven miles north from the Theodore Roosevelt National Park. The initial blowout sprayed a mist of oil and water onto snow lying on top of the ice-covered Cherry Creek. The company that operates the site, Whiting Oil and Gas, said that about 50 barrels of flowback water were released but contained on site within a berm. Hydraulic fracturing had been completed on the well and the fluid that was released was the water-based solution that flows back to the surface.<br><br>Source: "Equipment failure causes Whiting oil well blowout: Workers flee from stie near Watford City". Amy Dalrymple. The Dickinson Press. February 15, 2014. Web. Accessed July 14, 2015.<br>http://www.thedickinsonpress.com/content/equipment-failure-causes-whiting-oil-well-blowout-workers-flee-site-near-watford-city]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-103.316803,47.7407087,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fort Berthold Reservation, ND</name>
+			<description><![CDATA[More than a million gallons of salty drilling waste spilled from a pipeline onto a steep hillside in western North Dakota in July 2014. The waste was a byproduct of oil and gas production. It contaminated a tributary of Lake Sakakawea, which provides drinking water to a nearby reservation. The spill killed vegetation and contaminated the soil.<br><br>Source: "Saltwater' from Fracking Spill is not What's Found in the Ocean." Lisa Song. Bloomberg Business. July 16, 2014. <br>http://www.bloomberg.com/news/2014-07-16/-saltwater-from-fracking-spill-is-not-what-s-found-in-the-ocean.html]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-102.2885513,47.7007511,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mandaree, ND</name>
+			<description><![CDATA[A pipeline owned by Arrow Water LLC leaked 3,000 barrels of brine near the town of Mandaree in September 2014. This was the second such incident at the reservation by the same company in two months.<br><br>Source: "Second Frack Waste Leak in Two Months on Fort Berthold Reservation". Plus Media Solutions, US Official News. September 3, 2014.<br>http://www.lexisnexis.com.proxy.lib.duke.edu/lnacui2api/api/version1/getDocCui?lni=5BBH-T3V1-J9XT-P04G&csi=270944,270077,11059,8411&hl=t&hv=t&hnsd=f&hns=t&hgn=t&oc=00240&perma=true]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-102.6758194,47.7297407,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Heimdal, ND</name>
+			<description><![CDATA[Cars from a BNSF railway train carrying crude oil obtained from the Bakken shale derailed and caught fire, resulting in the evacuation of 40 town residents in May 2015.<br><br>Source: "Federal Investigators Look for Cause of Fiery North Dakota Train Crash". Dave Aeikens. ABC News. May 6, 2015. Accessed July 1, 2015.<br>http://kstp.com/news/stories/s3787863.shtml]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-99.6451807,47.793438,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>White Earth, ND</name>
+			<description><![CDATA[A spill at an Oasis Petroleum site 11 miles northeast of White Earth released at least 500 barrels of water (used for hydraulic fracturing) and three barrels of oil in September 2014.<br><br>Source: "ND energy workers contain oil, water spill". The Bismarck Tribune, September 17, 2014. LexisNexis Academic. Web. Accessed June 30, 2015.<br>http://www.lexisnexis.com.proxy.lib.duke.edu/lnacui2api/api/version1/getDocCui?lni=5D5B-JVB1-JCM7-R2D8&csi=270944,270077,11059,8411&hl=t&hv=t&hnsd=f&hns=t&hgn=t&oc=00240&perma=true]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-102.7663707,48.39191160000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wildrose, ND</name>
+			<description><![CDATA[A brine spill occurred when a valve or piping connection leaked approximately 200 barrels of brine from a Crescent Point Energy well two miles west of Wildrose in May 2014. The spill impacted cultivated land; approximately 80 barrels were recovered and the impacted soil was removed to a licensed disposal facility.<br><br>Source: The Bismarck Tribune, May 30, 2014. LexisNexis Academic. Web. Accessed June 30, 2015.<br>http://www.lexisnexis.com.proxy.lib.duke.edu/lnacui2api/api/version1/getDocCui?lni=5C9W-TSC1-JCM7-R3F5&csi=270944,270077,11059,8411&hl=t&hv=t&hnsd=f&hns=t&hgn=t&oc=00240&perma=true]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-103.1922412,48.63069630000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>South of Williston, ND</name>
+			<description><![CDATA[Zachary Buckles, a 20-year-old from Glasgow, Montana was found dead with his head over a tank hatch at a Continental Resources Inc. well site south of Williston, N.D. in April 2014. He was working for a small contractor called Black Gold Testing. Petroleum poisoning is suspected as a cause of death.<br><br>Source: Poisoned by the shale? Investigations leave questions in oil tank deaths. Mike Soraghan. EnergyWire. October 27, 2014.<br>http://www.eenews.net/special_reports/danger_zone/stories/1060007896]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-103.6172104,48.1251949,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>North of Williston, ND</name>
+			<description><![CDATA[About 1,240 barrels of saltwater were released after a drain valve was left open on a pipeline in November 2013. Eric Bayes of Oasis Petroleum said an employee discovered a large puddle at a well site north of Williston.<br><br>Source: "Cleanup underway after Williston saltwater pipeline spill". Amy Dalrymple. Oil Patch Dispatch. November 12, 2013. Web. Accessed July 17, 2015.<br>http://oilpatchdispatch.areavoices.com/2013/11/12/cleanup-underway-after-williston-saltwater-pipeline-spill/]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-103.6306,48.21643790000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Watford City, ND</name>
+			<description><![CDATA[Deep Creek Federal 43X-5D well, southeast of Watford City, ND, blew out on August 29, 2015. It leaked 550 barrels (23,100 gallons) of crude onto the pad and surrounding grasses. The well was being fracked when its pressure control valves failed, resulting in the oil leak in addition to 4,620 gallons of leaked saltwater. The well is owned by XTO Energy, a subsidiary of Exxon Mobil. <br><br>Source: "XTO Energy well in North Dakota suffers blowout, leaks 550 barrels" Ernest Scheyder, Reuters. August 31, 2015. Accessed October 29, 2015. http://www.reuters.com/article/2015/08/31/us-exxon-mobil-leak-idUSKCN0R021Q20150831]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-102.93,47.66580000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Williston, ND</name>
+			<description><![CDATA[A pipeline leak that began January 6, 2015 spilled more than three million gallons of brine, a byproduct of hydraulic fracturing that is considered toxic because it is saltier than seawater and often contains other fracking fluids and petroleum. The leak reached the Missouri River, and is the largest saltwater spill in the state's history.<br><br>Source: "Fracking brine leak in North Dakota reaches Missouri River, prompts state Democrats to call for more regulation". Rebecca Jacobson. PBS Newshour. January 26, 2015.<br>http://www.pbs.org/newshour/rundown/fracking-brine-leak-north-dakota-reaches-missouri-river-prompts-state-democrats-call-regulation/<br><br>Also, in August 2012 an oil well blowout sprayed 400 barrels of oil and 400 barrels of produced water used for hydraulic fracturing. Crews had completed the drilling and hydraulic fracturing process for that well and were completing the well for production when the blowout occurred.<br><br>Source: "Crews clean at oil well blowout site near Williston". Amy Dalrymple. The Dickinson Press, N.D. August 20, 2012. LexisNexis Academic. Web. Accessed June 30, 2015.<br>http://www.lexisnexis.com.proxy.lib.duke.edu/lnacui2api/api/version1/getDocCui?lni=56CX-JX31-DYNS-31V3&csi=270944,270077,11059,8411&hl=t&hv=t&hnsd=f&hns=t&hgn=t&oc=00240&perma=true]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-103.617897,48.1478777,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Elk City, OK</name>
+			<description><![CDATA[Randy Baumann and Christ Albert were killed in a Cactus drilling rig accident in 2012. Workers were using a 275-ton hydraulic crane to erect the mast of a drilling rig when a six-foot beam fell to the ground.<br><br>Source: "The human toll of a drilling boom in Oklahoma". Joe Wertz. State Impact. August 2, 2012. Web. Accessed July 26, 2015.<br>https://stateimpact.npr.org/oklahoma/2012/08/02/the-human-toll-of-a-drilling-boom-in-oklahoma/]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-99.40429690000001,35.4153553,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Garvin County, OK</name>
+			<description><![CDATA[In August 2014, four workers were injured in a fire while they were performing maintenance on a natural gas pipeline operated by DCP Midstream. The workers were taken to a hospital in Lindsay.<br><br>Source: "Four are injured in pipeline fire near Lindsay". Jay F. Marks. NewsOK. August 21 2014. Web. Accessed July 13, 2015.<br>http://newsok.com/four-are-injured-in-pipeline-fire-near-lindsay/article/5334363]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-97.3484802,34.7370985,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Harper County, OK</name>
+			<description><![CDATA[In October 2013, a pipeline explosion forced residents within two miles to evacuate. Highways were shut down, and observers say the flames could be seen from 50 miles away. The pipeline was operated by Northern Natural Gas, a company that operates nearly 15,000 miles of natural gas pipelines in the United States.<br><br>Source: "Pipeline explosion in Oklahoma ignites natural gas, flames seen 50 miles away". Inquisitr. October 9, 2013. Web. Accessed July 20, 2015.<br>http://www.inquisitr.com/985603/pipeline-explosion-oklahoma-natural-gas-flames-video/]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-99.63088990000001,36.8246762,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Kingfisher County, OK</name>
+			<description><![CDATA[In July 2014, 480 barrels of fracking-related hydrochloric acid -- nearly enough to fill an Olympic-sized swimming pool -- emptied out of a tank where it was stored. The acid was for use in a Blake Production well, and there were concerns that the acid could taint the water supply of Hennessey, a nearby town. The spill occurred in the Hawk's family's alfalfa field, a property on which they planned to build a home. The spill will not only effect the Hawk's immediate use and enjoyment, but future development may be impossible.<br><br>Source: "Frackers spill olympic pool's worth of hydrochloric acid in Oklahoma". Ari Phillips. ClimateProgress. July 31, 2014. Web. Accessed July 13, 2015.<br>http://thinkprogress.org/climate/2014/07/31/3466283/olympic-pool-sized-hydrochloric-acid-spill-oklahoma/]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-97.87170410000002,35.9246445,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Le Flore, OK</name>
+			<description><![CDATA[In November 2013, residents complained that their water had been contaminated by a produced water disposal pit. The pit into which waste-water was dumped was not lined. At least 14 residents in the neighborhood of the 20 homes closest to the dump site now have cancer.<br><br>Source: "Oklahomans Claim Fracking Waste Polluted their water". NewsOn6. Oklahoma's Own. November 11, 2013. Web. Accessed July 20, 2015.<br>http://www.newson6.com/story/23938227/fracking-wastewater-dumped-in-small-oklahoma-town]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-94.980154,34.8987087,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Noble County, OK</name>
+			<description><![CDATA[Norman Butler, 48, was killed in an oil well drilling accident involving a condensate pumping skid in November 2014. The accident occurred as pump upgrades were being performed by Blue Racer Midstream, CONSOL's midstream service provider in Noble County.<br><br>Source: "UPDATE: Victim ID'd in Fatal Oil Well Drilling Accident in Noble County". Colin Lawler. November 16, 2014. Web. Accessed July 8, 2015.<br>http://www.wtrf.com/story/27372541/crews-respond-to-fatal-oil-well-drilling-accident-in-noble-county]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-97.18093870000001,36.4864531,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Rogers County, OK</name>
+			<description><![CDATA[Max and Casey Murphey and their three young children discovered an uncapped gas well under their home. They have footage of gas seeping up from their yard that is not only causing bubbles on their driveway and sidewalk but is also flammable. Their three children, who were all born healthy, are now experiencing health problems, especially difficulty breathing.<br><br>Source: "Owasso couple: 'Strange gas turning dream home into nightmare'". FOX news. May 30, 2014. Web. Accessed July 7, 2015.<br>http://m.fox23.com/news/news/breaking-news/owasso-couple-strange-gas-turning-dream-home-into-/ngHMD/]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-95.64422610000001,36.3980729,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Oklahoma County, OK</name>
+			<description><![CDATA[In April 2015, a leak from an oil and gas facility owned by Gastar leaked a saltwater mix onto the property of local homeowners. Homeowner David Loftis was concerned for his livestock, after the wastewater spill ran onto his pasture and pond, killing vegetation and fish.<br><br>Source: "Pollution spill kills pond fish, upsets landowner beyond words". Andrew Donley. NewsChannel4. Web. Accessed July 1, 2015.<br>http://kfor.com/2015/04/30/land-owner-so-upset-over-pond-pollution-he-cant-find-his-words/]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-97.35122679999999,35.6065101,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Texas County, OK</name>
+			<description><![CDATA[In November 2014, a DCP straight compressor station caught fire and exploded 13 miles northeast of Guymon, putting two workers in critical condition from burns. Straight Elementary School, nearby, was evacuated.<br><br>Source: "Two workers critically injured in explosion near Guymon". News9. November 21, 2014. Web. Accessed July 8, 2015.<br>http://www.news9.com/story/27449668/two-workers-critically-injured-in-explosion-near-guymon]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-101.4353943,36.8400646,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Aledo, TX</name>
+			<description><![CDATA[In February 2008, Joyce Burton, a worker for L&B Transport, was unloading hydrochloric acid at Frac Tech's Aledo facility, when a hose fitting came loose and sprayed the acid onto her face and body. According to Burton, the two safety showers in the facility were either not working properly or were locked and not accessible. She suffered serious chemical burns to her face, chest and abdomen.<br><br>Source: Frac Tech to pay $450K settlement to woman burned by acid". Jaime Adame. Abilene Reporter-News. November 16, 2011. Web. Accessed July 22, 2015.<br>http://www.reporternews.com/business/woman-alleging-no-working-safety-showers-at-frac]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-97.60202409999999,32.6965995,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Arlington, TX</name>
+			<description><![CDATA[In April 2015, a well owned by Vantage Energy leaked thousands of gallons of frackwater into Rush Creek and Village Creek, resulting in the evacuation of nearby homes. Vantage waited more than two hours before calling 911, and may be facing charges.<br><br>Source: "Driller may face fines in Arlington gas well emergency". Susan Schrock. Star-Telegram. April 14, 2015. Web. Accessed July 1, 2015.<br>http://www.star-telegram.com/news/local/community/arlington/article18540473.html]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-97.1074677,32.7370393,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Barstow, TX</name>
+			<description><![CDATA[In April 2013, a well blowout near Barstow caused the death of two men. Juan Rios was pronounced dead at the scene and Olegario Rios was airlifted to the hospital where he later died. Two other men, Roman Galindo and Jose Cruz, were airlifted to the University Medical Center in Lubbock. Officials on the scene determined that a pulling unit belonging to Basic Energy Services was in the process of rigging up on the well when it blew out.<br><br>Source: Source: "Two Killed, Two Injured After Well Blowout Near Barstow". Staff Report. NewsWest 9. April 5, 2013.<br>http://www.newschannel10.com/story/21893579/one-killed-three-injured-after-oil-rig-blowout-north-of-barstow]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-103.3937073,31.4617245,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Barnhart, TX</name>
+			<description><![CDATA[The fracking boom in Barnhart, Texas caused a huge demand for fracking water. The town's wells appear to have run dry because of water being extracted for fracking use. Residents report that water troubles began when fracking began in the area. Farmers have lost livestock and crops, and the town was water-rationed.<br><br>Source: "A Texan tragedy: ample oil, no water". Suzanne Goldenberg. The Gaurdian. August 11, 2013. Web. Accessed July 1, 2015.<br>http://www.theguardian.com/environment/2013/aug/11/texas-tragedy-ample-oil-no-water]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-101.1706924,31.128236,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Borden County, TX</name>
+			<description><![CDATA[Joel and Betty Dennis live near a Westex Systems disposal waste pit, and have complained of nausea and odors so bad that they had to stay indoors. The smells they reported were characteristic of potentially lethal hydrogen sulfide. Despite the family's complaints, another pit holding 163 barrels of oil and gas waste was approved.<br><br>Source: "In Fracking's Wake: Open pits offer cheap disposal for oil and gas sludge, but health worries mount". David Hasemyer and Zahra Hirji. InsideClimateNews. October 2, 2014. Web. Accessed July 9, 2015.<br>http://books.insideclimatenews.org/infrackingswake]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-101.434021,32.831135,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Brazos County, TX</name>
+			<description><![CDATA[Monica and Richard Palasota are concerned about ongoing fracking at a well owned by Halcon that's 1,800 feet away from their house. They have experienced vibrations that rattle the windows against their frames, a coating of dust on their family truck, and they have been unable to sleep due to 40 days of noise from the well. John Opersteny and family have experienced headaches and worsening of asthma, as well as lack of sleep from the noise.<br><br>Source: "Residents concerned about health, pollution from fracking near their homes". Emily Wilkins. The Eagle. April 26, 2015. Web. Accessed July 2, 2015.<br>http://www.theeagle.com/news/local/residents-concerned-about-health-pollution-from-fracking-near-their-homes/article_ec5607f9-aed3-5153-9826-6d2dc835c010.html]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-96.32400509999998,30.65445279999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Burleson County, TX</name>
+			<description><![CDATA[In December 2014, a natural gas leak at a Comstock oil and gas well caused the evacuation of 28 families in a two-mile radius. The cause of the leak appeared to be a faulty valve, and according to the county's emergency coordinator, a "significant amount" of natural gas and a small quantity of water escaped the well.<br><br>Source: "Families back home after Burleson County gas leak evacuation". Eagle Staff Report. The Eagle. December 12, 2014. Web. Accessed July 7, 2015.<br>http://www.theeagle.com/news/local/families-back-home-after-burleson-county-gas-leak-evacuation/article_0ca2e9e5-e290-5553-8a79-540e639af235.html]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-96.66595460000001,30.45281719999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Corpus Christi, TX</name>
+			<description><![CDATA[In February 2013, a 25-year-old father of two with a new baby on the way was killed at a Coastal Drilling company drill site after a metal structure fell over, crushing him under tons of heavy metal. This is one of many accidents to occur in 2009 on the Eagle Ford Shale site.<br><br>Source: “Eagle Ford pay is high but work can be fatal.” John Tedesco. My San Antonio. Feb. 26, 2013.<br> http://www.mysanantonio.com/news/energy/article/Eagle-Ford-pay-is-high-but-work-can-be-fatal-4285405.php]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-97.39723210000001,27.8062837,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Culberson County, TX</name>
+			<description><![CDATA[In March 2013, a 22-year-old Carlsbad man was killed in an oil rig accident. He was working on a drilling rig for Patriot Drilling when a 24-foot section of pipe fell on him. He was pronounced dead at the scene.<br><br>Source: "Carlsbad man dies in oil rig accident in Culberson County, Texas". Stella Davis. Carlsbad Current-Argus. March 21, 2013. Web. Accessed July 23, 2015.<br>http://www.currentargus.com/ci_22835540/carlsbad-man-dies-oil-rig-accident-culberson-county]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-104.4717407,31.3606732,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Denton, TX</name>
+			<description><![CDATA[In April 2013, a gas pipe separated from a well owned by Eagle Ridge Operating LLC, causing fracking water and small traces of natural gas to leak from the pipe. A Denton hazardous materials unit was at the site for nearly five hours, and the authorities evacuated four homes as a precaution.<br><br>Source: Source: "Denton responders work gas well pipe emergency". Megan Gray. Denton Record-Chronicle. April 19, 2013.<br>http://www.dentonrc.com/local-news/local-news-headlines/20130419-gas-pipe-leak-capped.ece]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-97.13287350000002,33.2185845,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Denton County, TX</name>
+			<description><![CDATA[Fracking is prevalent in this area, and residents have been reporting many health problems in correlation with drilling activity. Rebecca Williams lives near a compressor station and heavy gas-well development, and has experienced rashes, sharp headaches and repeated bouts of pneumonia respiratory problems, nosebleeds, and vomiting. Her dog also has rashes. Justin Eaklor has four Barnett shale wells just under two-thirds of a mile from his house, and has been diagnosed with acute lymphoblastic leukemia. Taylor Ishee lives within a mile and a half of 37 active gas wells, and has been diagnosed with Burkitt leukemia, a rare type of cancer.<br><br>Source: "Big Oil, Bad Air: Health worries pervade North Texas fracking zone". Jamie Smith Hopkins. December 11, 2014. Web. Accessed July 8, 2015.<br>http://www.publicintegrity.org/2014/12/11/16396/health-worries-pervade-north-texas-fracking-zone?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+publici_rss+(The+Center+for+Public+Integrity+Latest+Stories)<br><br>In January 2013, a 63-year-old man was found dead near a natural gas pad in Denton County. The man was unloading condensate, a natural gas liquid, from the tank of his truck into a holding tank when something went wrong; he was found near a spillover of condensate, the likely cause of death. He was working for a subsidiary of ConocoPhillips.<br><br>Source: “Man found dead near natural gas pad site.” Megan Gray. Denton Record-Chronicle. Jan. 17, 2013.<br>http://www.dentonrc.com/local-news/local-news-headlines/20130117-man-found-dead-near-natural-gas-pad-site.ece<br><br>Veronica Kronvall bought a home in north Texas in 2007. Four years later, an energy company drilled five wells behind her home, the closest two within 300 ft. of her garden. After the drilling began, Kronvall, 52, starting having nosebleeds, nausea and headaches. Her home lost nearly a quarter of its value and some of her neighbors went into foreclosure.<br><br>Source: "Fracking hell: what it's really like to live next to a shale gas well". Suzanne Goldenberg. The Guardian. December 14, 2013. Web. Accessed July 16, 2015.<br>http://www.theguardian.com/environment/2013/dec/14/fracking-hell-live-next-shale-gas-well-texas-us]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-97.18093870000001,33.1490498,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Dimmit County, TX</name>
+			<description><![CDATA[In January 2015, five men died when their van slammed into a tanker truck carrying shale crude oil. The vehicle burst into flames, and three others were injured. The accident happened in the heart of the fracking field southwest of San Antonio, an area where traffic accidents have become much more frequent since the fracking boom.<br><br>Source: "Five dead in crash in South Texas oil field". Jim Forsyth. Reuters. January 15, 2015. Web. Accessed July 7, 2015.<br>http://www.reuters.com/article/2015/01/15/us-usa-crash-texas-oil-idUSKBN0KO2J020150115]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-99.81216430000002,28.4161638,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Floresville, TX</name>
+			<description><![CDATA[Fred and Amber Lyssy raise pigs, goats and cattle on a 564-acre organic farm in Wilson County outside Floresville. Their land is surrounded by wells, flares and holding tanks. Six of their dogs suffered mysterious deaths -- five died within a few days of each other in February 2013. When inspectors visited the area, they detected hydrogen sulfide and other unspecified emissions coming from a Hunt Oil complex with 12 crude oil tanks and a flare.<br><br>Source: "Fracking the Eagle Ford Shale". Jim Morris, Lisa Song and David Hasemyer. The Weather Channel: The Center for Public Integrity. February 18, 2014. Web. Accessed July 14, 2015.<br>http://stories.weather.com/fracking]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-98.156147,29.1340197,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fort Worth, TX</name>
+			<description><![CDATA[In April 2014, a fracking wastewater truck fatally struck a teenage bicycle rider. Deston Bibbs, 14, died at John Peter Smith Hospital in Fort Worth. Based on a video taken by a red-light camera at the intersection, detectives determined that the truck was an 18-wheeler belonging to frack waste hauler 3-Star Daylighting.<br><br>Source: "A fracking truck driver who ran over a 14-year-old boy in Fort Worth has been cleared of wrongdoing". Eric Nicholson. Dallas Observer. August 6, 2013. Web. Accessed July 14, 2015.<br>http://www.dallasobserver.com/news/a-fracking-truck-driver-who-ran-over-a-14-year-old-boy-in-fort-worth-has-been-cleared-of-wrongdoing-7149673]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-97.3302841,32.7563861,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gillett, TX</name>
+			<description><![CDATA[In October 2013, a tank farm explosion left a 38-year-old worker with serious burns. There were a total of nine tanks on fire and two open tanks, containing wastewater from fracking operations going on in the area. This wastewater could contain oil and other chemicals. The tanks were owned by Gulf Coast Acquisitions.<br><br>Source: "Cause of tank farm explosion that injured 1 under investigation". ABC KSAT. October 8, 2013. Web. Accessed July 14, 2015.<br>http://www.ksat.com/content/pns/ksat/news/2013/10/08/cause-of-tank-farm-explosion-that-injured-1-under-investigation.html]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-97.7846074,29.1284904,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Harris County, TX</name>
+			<description><![CDATA[In April 2014, Vilma Marenco was hit by a flatbed truck carrying a load of steel pipes for use in drilling. The 18-wheeler ran a red light and crushed her Chevy Cavalier. According to the Texas Department of Public Safety, the company involved, R & F Quality Transportation, shouldn't have had a truck on the road at all because it had amassed a number of safety violations ranging from defective brakes to a driver smoking marijuana behind the wheel.<br><br>Source: "In Texas, Traffic Deaths Climb Amid Fracking Boom". Andrew Schneider. NPR. October 12, 2014. Web. Accessed July 9, 2015.<br>http://www.npr.org/2014/10/02/352980756/in-texas-traffic-deaths-climb-amid-fracking-boom]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-95.3132629,29.78106560000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Houston County, TX</name>
+			<description><![CDATA[In October 2014, a worker was injured when a pressure valve blew open on a liquid gas well, spraying him with an undetermined liquid gas that resulted in chemical burns. He was transported by helicopter to East Texas Medical Center.<br><br>Source: "UPDATE: Man injured at gas well has suffered chemicals burns". Tyler Morning Telegraph. October 23, 2014. Web. Accessed July 9, 2014. <br>http://www.tylerpaper.com/article/view/article_id/207330/headline/update-man-injured-at-gas-well-has-suffered-chemical-burns/section/TP-News+Local#.VFPpXVfiG2U]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-95.4780579,31.24803,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Karnes County, TX</name>
+			<description><![CDATA[Cynthia Dupnik started feeling sick shortly after Marathon Oil started drilling near home. Marathon sent a team to take air samples on her property, but they never returned with the test results. On the evening of December 13, 2013, noise from a nearby tank battery site was louder than usual and the air smelled like rotten eggs. Dupnik experienced a metallic taste in her mouth and had a hard time breathing. Before drilling started, her family had no health issues, but now they suffer from fatigue, headaches, rashes, eyestrain, sore throats, dizziness, nosebleeds and respiratory problems.<br><br>Source: "Eagle Ford Shale: Breathe at your own risk". Julie Dermansky. Desmog Blog. December 30, 2013. Web. Accessed July 16, 2015.<br>http://www.desmogblog.com/2013/12/30/eagle-ford-shale-breathe-your-own-risk]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-97.87307740000001,28.9108126,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>La Porte, TX</name>
+			<description><![CDATA[In December 2013, a fire at a pipeline facility owned by Enterprise Products Partners burned for four hours, causing two injuries before it was extinguished. Natural gas liquids were ignited in the fire, but it is unclear how it began. The facility loads natural gas liquids and crude oil into barges at rates of up to 5,000 barrels per hour. The barges move oil and natural gas between U.S. ports.<br><br>Source: "2 injured at La Porte pipeline facility where fire burned for four hours". Dale Lezon and Zain Shauk. Chron. December 31, 2013. Web. Accessed July 16, 2015. <br>http://www.chron.com/news/houston-texas/houston/article/2-injured-at-La-Porte-pipeline-facility-where-5104540.php?cmpid=htx]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-95.01937870000003,29.666576,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>La Salle County, TX</name>
+			<description><![CDATA[Charles Covert's ranch is right next to a production facility that includes tanks for the storage of crude oil, a tank for produced water, and a flare that wafts black smoke toward his property. According to doctors, Covert suffered ill health effects of hydrogen sulfide, a flammable gas with a rotten-egg smell that is often created in wells along with oil and gas. He has a loss of lung function and uses numerous medications, including inhalers and nasal sprays. The Texas Commission on Environmental Air Quality found that the operator of the production facility failed to prevent air emissions. State investigators had irritated eyes upon visits to the ranch, and smelled the odor of sour gas.<br><br>Source: "Something's in the air". Jennifer Hiller. San Antonio Express News. July 20, 2013. Web. Accessed July 22, 2015.<br>http://www.expressnews.com/news/energy/article/Something-s-in-the-air-4676882.php?t=f8cfae68c3dffd779b]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-99.0994263,28.2862426,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lavaca County, TX</name>
+			<description><![CDATA[In August 2013, a Nabors oil rig operated by Enron Oil and Gas exploded after oil rig workers were drilling horizontally into the Eagle Ford Shale. Those living near the well site were evacuated from their homes.<br><br>Source: "Residents, workers evacuate from site of oil rig explosion". Bianca Montes. Victoria Advocate. August 29, 2015. Web. Accessed July 20, 2015.<br>http://www.victoriaadvocate.com/news/2013/aug/29/oil_rig_fire_folo_bm_083013_218438/]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-96.8334961,29.3426783,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Orla, TX</name>
+			<description><![CDATA[In April 2014, two people died and nine were injured in an explosion at a production facility near Orla. The explosion took place when pressure built up as workers were changing a wellhead at the production facility. The area in which the explosion took place is owned by RKI exploration & Production.<br><br>Source: "Two dead, nine injured in Loving County explosion". Audris Ponce. OA Online. April 30, 2014. Web. Accessed July 14, 2015.<br>http://www.oaoa.com/news/crime_justice/law_enforcement/article_c911d548-d092-11e3-82c7-001a4bcf6878.html]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-103.9084983,31.8248463,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Navarro County, TX</name>
+			<description><![CDATA[In July 2013, a casing ruptured in a gas well just outside Corsicana, causing one injury. About four gallons per minute of injection fluid and drilling mud were leaking from the well.<br><br>Source: "1 injured when casing ruptures at Corsicana gas well". WFAA staff. WFAA. July 25, 2013. Web. Accessed July 21, 2015.<br>http://www.wfaa.com/story/local/2015/07/21/14073798/]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-96.48056030000001,32.10584290000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Newton, TX</name>
+			<description><![CDATA[In September 2013, a 10-inch wide underground gas pipe operated by DCP Midstream ruptured, spewing natural gas into the air. Emergency responders evacuated about a dozen people from their homes in the area. According to a DCP spokeswoman, the pipeline was a gathering line, meaning it carries mined gas to processing facilities.<br><br>Source: "Gas line not yet repaired after explosion in Buna". Tim Monzingo. Beaumont Enterprise. September 24, 2013. Web. Accessed July 21, 2015.<br>http://www.beaumontenterprise.com/news/article/Gas-line-not-yet-repaired-after-explosion-in-Buna-4838918.php]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-93.75715260000001,30.8493319,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Panola County, TX</name>
+			<description><![CDATA[In June 2011, Mike Allen crashed into a heavy truck owned by Water Resources. The truck was hauling water to a fracking site, and it was stopped on the road without turn signals or flashing lights.<br><br>Source: "Parker County truck wreck lawsuit one of two settled for combined $11.7 million". Weatherford Democrat. June 28, 2013. Web. Accessed July 22, 2015.<br>http://www.weatherforddemocrat.com/news/local_news/parker-county-truck-wreck-lawsuit-one-of-two-settled-for/article_c48e4897-fd53-57a5-ad47-25145d209569.html]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-94.31488040000001,32.2023433,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Pappy Elkins Lake, TX</name>
+			<description><![CDATA[XTO Energy pumped nearly 1.4 million gallons of water out of Pappy Elkins Lake in 2011 to use in fracking operations. In August 2014, water levels were extremely low, and a massive fish kill occurred, with thousands of carp floating on the surface of the lake.<br><br>Source: "Massive fish kil at Dalworthington Gardens lake". Todd Unger. WFAA 8 ABC. August 26, 2014. Web. Accessed July 8, 2015.<br>http://www.wfaa.com/story/news/local/tarrant-county/2014/08/26/fish-kill-pappy-elkins-lake-dalworthington-gardens/14662529/]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-97.15876760000002,32.7032219,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Parker County, TX</name>
+			<description><![CDATA[In December 2010, the EPA discovered two contaminated water wells in southern Parker county. Federal regulators feared some homes could actually explode if people kept using the water. An emergency order was subsequently issued to test all the wells in the area near the Aqua Texas plant. Residents in and around the plant experienced murky drinking and bath water after the wells were contaminated.<br><br>Source: “Map pinpoints contaminated water in Parker County.” Chris Hawes. WFAA 8. Dec. 8 2010. “Just Below the Surface.” Pennie Boyett. Denton Record-Chronicle. March 29, 2011.<br>http://www.wfaa.com/news/local/Map-pinpoints-contaminated-water-in-Parker-County--111564849.html, http://www.dentonrc.com/local-news/special-projects/gas-well-drilling-headlines/20110329-just-below-the-surface.ece<br><br>In June 2014, homeowners Marcus and Laura Marsden of Aledo won a lawsuit against Titan Operating, which built gas well near the couple's home. Titan drilled less than 300 feet from the Marsden's home, caused flooding of their property, did not use promised sound mufflers, and did not restore or properly fence the drill site.<br><br>Source: "Parker County couple wins nuisance lawsuit against Titan Operating". Shlachter, Baker & Fuquay. Star-Telegram. June 29, 2014. Web. Accessed July 13, 2015.<br>http://www.star-telegram.com/news/business/biz-columns-blogs/baker-ahles-kaskovich/article3863533.html<br><br>David and Merideth Hull experienced 30 earthquakes between November 2013 and May 2014. They are one of dozens of families who have been hit by a rash of earthquakes since November, and they point to oil and gas disposal wells as likely culprits. The wells dispose of wastewater used in hydraulic fracturing for natural gas in the nearby Barnett Shale.<br><br>Source: "Fracking wells possible culprit of Texas earthquakes". Rick Jervis. USA Today. June 1, 2014. Web. Accessed July 13, 2015.<br>http://www.usatoday.com/story/news/nation/2014/06/01/earthquakes-texas-fracking-wells/9765659/]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-97.87101749999999,32.7433924,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Perrin, TX</name>
+			<description><![CDATA[On August 2, 2014, a water well exploded in Perrin, TX, burning a family of four, including a 4-year-old child. The well was contaminated with  methane gas from nearby natural gas fracking operations. The family is now involved in a lawsuit with the energy companies who own the gas wells, which are located approximately 1,000 feet away from the family's water well. <br><br>Source: "Fracked Water Explodes, Burning Family." David Lee. Courthouse News Service. 8/10/2015. Accessed 10/29/2015. http://www.courthousenews.com/2015/08/10/fracked-water-explodes-burning-family.htm]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-98.06844359999999,33.0350667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ponder, TX</name>
+			<description><![CDATA[In October 2011, the Texas Commission of Environmental Quality conducted an air-quality analysis in Ponder, Texas, which showed the presence of several toxins in the air near an Atmos Energy natural gas processing plant less than a mile away. The most concerning to residents was benzene, which can cause a variety of health side effects if individuals are exposed to it long term. Individuals complained of nose bleeds and headaches caused by the pollution. <br><br>Source: “Air Quality Testing Finds Toxins in Ponder.” NBC-DFW. Oct. 27, 2011.<br>http://www.nbcdfw.com/news/health/Air-Quality-Testing-Finds-Toxins-in-Ponder-132746733.html]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-97.2873688,33.1835367,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Rusk County, TX</name>
+			<description><![CDATA[In August 2014, a gas pipeline owned by Enbridge exploded, killing one man. The pipeline had been broken by a tractor, and the deceased man was part of a mowing team working in the area.<br><br>Source: "Enbridge gas pipeline explosion kills man in Rusk County, Texas". Reuters. Huffington Post. August 12, 2014. Web. Accessed July 8, 2015.<br>http://www.huffingtonpost.com/2014/08/13/enbridge-gas-pipeline-explosion-texas_n_5673666.html]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-94.8092651,32.1814242,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Reno, TX</name>
+			<description><![CDATA[Barbara Brown, a woman in her 40's, has experienced problems ever since Devon Energy drilled a gas well across the street, a few hundred feet from her house. She has sinkholes in her yard that are wide enough to step in and several feet deep that she blames on injection wells. When her dogs came in contact with black soot from drilling, they contracted neurological disease and kidney failure and died within six months. Brown suffered migraines and loss of sensation in her limbs, and has been diagnosed with demyelinating disease, a category of neurological ailment that can be caused by exposure to chemicals.<br><br>Source: "Texas: When fracking comes to town". Alex Halperin. Aljazeera America. April 27, 2014. Web. Accessed July 14, 2015.<br>http://america.aljazeera.com/features/2014/4/texas-when-frackingcomestotown.html<br><br>Steve Brown and family, along with other Reno residents, have noticed a correlation between the arrival of injection wells and earthquakes in the area. The Browns have sinkholes in their yard and cracks throughout their home. At one point, 32 tremors occurred within the span of a few months.<br><br>Source: "Reno, Azle earthquakes leave trail of damages". ABC WFAA. January 17, 2014. Web. Accessed July 15, 2015.<br>http://www.wfaa.com/story/local/2015/07/15/14153824/]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-95.4624367,33.6635679,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>San Antonio, TX</name>
+			<description><![CDATA[In August 2014, a man in his early 60s died after a 3,500-pound bag of fracking sand fell on him at a far North Side warehouse. The man was walking on the floor, spotting for a forklift driver, when the bag fell from a stack of three or four bags. He worked for Chalk Mountain Services, an oilfield transportation company leasing space in the building.<br><br>Source: "Bag of sand kills man at San Antonio warehouse". Alia Malik. San Antonio Express News. August 18, 2014. Web. Accessed July 8, 2015.<br>http://www.mysanantonio.com/news/local/article/Bag-of-sand-kills-man-at-San-Antonio-warehouse-5695744.php]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-98.49517820000001,29.4384016,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Weatherford, TX</name>
+			<description><![CDATA[In September 2011, Arron Gomas, 32, sustained brain damage when he broadsided a tractor-trailer as the truck's driver attempted to make an illegal U-turn. The truck was hauling water to a hydraulic fracturing site.<br><br>Source: "Parker County truck wreck lawsuit one of two settled for combined $11.7 million". Weatherford Democrat. June 28, 2013. Web. Accessed July 22, 2015.<br>http://www.weatherforddemocrat.com/news/local_news/parker-county-truck-wreck-lawsuit-one-of-two-settled-for/article_c48e4897-fd53-57a5-ad47-25145d209569.html<br><br>In January 2013, following the construction of a Range Resources drilling site a mile north of his property, Weatherford resident Steve Lipsky noticed that his water had started to “bubble like champagne”. Today his water supply has enough methane to ignite. Though the Environmental Protection Agency initially issued an emergency order for the contamination, they rescinded it a year later. According to documents obtained by the Associated Press, Range Resources threatened to withhold its cooperation from a national study on hydraulic fracturing, and the EPA set aside a report linking Mr. Lipsky’s contaminated water to the well just off his property. Mr. Lipsky, who is still tied up in a lawsuit with Range Resources, has said the experience has “been taking a huge toll on my family and on our life”.<br><br>Source: “EPA changed course after company protested”. Ramit Pluschnik Masti, The Associated Press. January 16, 2013.<br>http://news.yahoo.com/epa-changed-course-oil-company-protested-082012084.html;_ylt=AmveX8E14CsKyLcN.JfNSLQS.MwF;_ylu=X3oDMTQ2bTdpNTV2BG1pdANUb3BTdG9yeSBTY2llbmNlU0YgRW5lcmd5U1NGBHBrZwM2Yjg2NzM2OC00NWE2LTM1OWMtOTI5MC0wZTE4ZGU2YWVkYWUEcG9zAzEEc2VjA3RvcF9zdG9yeQR2ZXIDNWY2NjY5OTAtNWZiNi0xMWUyLWJlZmUtMzE1ZDMwNTQ3ZGFk;_ylg=X3oDMTFzMnBqYnA4BGludGwDdXMEbGFuZwNlbi11cwRwc3RhaWQDBHBzdGNhdANzY2llbmNlfGVuZXJneQRwdANzZWN0aW9ucw--;_ylv=3]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-97.7975464,32.7604282,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wilson County, TX</name>
+			<description><![CDATA[In May 2013, internal pressure of a Hunt Oil Co. gas well reached critical levels, forcing the evacuation of residents in a 2-miles radius of the well.<br><br>Source: "Gas well issues prompt evacuation near Kosciusko". Johnny De La Zerda Jr. Wilson County News. May 8, 2013. Web. Accessed July 22, 2015. <br>http://www.wilsoncountynews.com/article.php?id=50983&n=breaking-news-gas-well-issues-prompt-evacuation-near-kosciusko]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-98.0474854,29.2792121,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wharton County, TX</name>
+			<description><![CDATA[In June 2014, a natural gas line owned by Enterprise Products ruptured, injuring one person and damaging a power plant. The explosion sent a fireball into the sky, and an individual driving near the line when it ruptured suffered non-life-threatening injuries. The rupture occurred on a "gathering line" -- a smaller pipeline that moves the natural gas from the wells to the processing facilities. There was some damage to the roadway and a nearby home.<br><br>Source: "Gas line ruptures in Wharton County, injuring one". Craig Hlavaty and Mike Glenn. Chron. June 27, 2014. Web. Accessed July 13, 2015.<br>http://www.chron.com/neighborhood/bayarea/article/Gas-line-ruptures-in-Wharton-County-injuring-one-5582181.php]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-96.1550903,29.3737983,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hagerman National Wildlife Refuge, TX</name>
+			<description><![CDATA[In February 2012, 3,000 gallons of drilling wastewater spilled in the Hagerman National Wildlife Refuge north of Dallas. The spill killed 84 mature oaks, cottonwoods and hackberry trees, some of which had been standing for more than 150 years on the banks of Lake Texoma. <br><br>Source: "Wastewater spills untracked in Texas, masking pollution." Mike Soraghan. E&E Reporter. November 18, 2015. Accessed: December 1, 2015. http://www.eenews.net/stories/1060028166]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-96.78152369999998,33.7554637,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sabine River, TX</name>
+			<description><![CDATA[In March 2016, the Sabine River flooded its banks on the Texas-Louisiana border, inundating oil wells and fracking sites and flushing crude oil and toxic fracking chemicals into the water. Emergency management officials photographed oil sheens and plumes spreading from tipped tanks and flooded production sites. This is not the first incidence of oil contamination in Texas during floods, and in the past cattle have died within an hour of drinking water contaminated with fracking fluid. <br><br>Source: "Texas floods washing fracking chemicals, crude oil into rivers." Chris Siron. The Dallas Morning News. May 1, 2016. Accessed May 12, 2016. http://thescoopblog.dallasnews.com/2016/05/texas-floods-washing-fracking-chemicals-crude-oil-into-rivers.html/]]></description>
+			<styleUrl>#icon-ci-1</styleUrl>
+			<Point>
+				<coordinates>-93.74350040000002,30.2977058,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Untitled layer</name>
+	</Folder>
+</Document>
+</kml>

@@ -40,6 +40,10 @@ var oilspill = d3.geo.path()
     .projection(projection)
     .pointRadius(3);
 
+var sd_milepost = d3.geo.path()
+    .projection(projection)
+    .pointRadius(3);
+
 var svg = d3.select("#map_container").append("svg")
     .attr("width", width)
     .attr("height", height);
@@ -60,9 +64,12 @@ queue()
     .defer(d3.json, "data/fraccidents.geojson")
     .defer(d3.json, "data/indian_reservations.geojson")
     .defer(d3.json, "data/oilspills.geojson")
+    .defer(d3.json, "data/sd_mileposts.geojson")
     .await(ready);
 
-function ready(error, us, keystone, dakota_access, phase4, waterbodies, waterwells, fraccidents, indian_reservations, oilspills) {
+function ready(error, us, keystone, dakota_access, phase4, 
+                waterbodies, waterwells, fraccidents, 
+                indian_reservations, oilspills, sd_mileposts) {
   if (error) throw error;
   svg.append("g")
       .attr("id", "states")
@@ -160,6 +167,17 @@ function ready(error, us, keystone, dakota_access, phase4, waterbodies, waterwel
         }
       
     });
+
+  svg.append("g")
+    .attr("id", "sd_mileposts")
+    .selectAll(".sd_milepost")
+    .data(sd_mileposts.features)
+    .enter()
+    .append("path")
+    .attr("class", "sd_milepost")
+    .attr("d", sd_milepost)
+    .on("click", sd_milepost_clicked);
+
 }
 
 function state_clicked(d) {
@@ -186,6 +204,9 @@ function oilspill_clicked(d) {
   center(d);
 }
 
+function sd_milepost_clicked(d) {
+  
+}
 
 function center(d) {
   var x, y, k;
