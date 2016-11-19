@@ -79,5 +79,14 @@ function clicked(d) {
       .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")scale(" + k + ")translate(" + -x + "," + -y + ")")
       .style("stroke-width", 1.5 / k + "px");
 }
-
+$("g").click(function (e) {
+      e.stopPropagation();
+        if (document.getElementById("mySidenav").style.width == "250px" && !centered){
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        else {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+      
+    });
 }
