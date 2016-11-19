@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Top Level markers.kmz</name>
+	<Style id="BasicStyleMPTop">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.steamingmules.com/images/kxl/MPmap.gif</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+	</Style>
+	<Style id="KMPinfo">
+		<IconStyle>
+			<scale>3</scale>
+			<Icon>
+				<href>http://www.steamingmules.com/images/kxl/Info-KMP.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+	</Style>
+	<Style id="BasicStyleMPTopX">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.steamingmules.com/images/kxl/MPmapNA.gif</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+	</Style>
+	<Folder id="Fusiontables">
+		<name>KXL_MP_TopLevel</name>
+		<Region id="ID">
+			<LatLonAltBox>
+				<north>48.9995075292</north>
+				<south>45.8987138286</south>
+				<east>-104.059884281</east>
+				<west>-107.545558139</west>
+				<minAltitude>0</minAltitude>
+				<maxAltitude>0</maxAltitude>
+				<altitudeMode>clampToGround</altitudeMode>
+			</LatLonAltBox>
+			<Lod>
+				<minLodPixels>12</minLodPixels>
+				<maxLodPixels>7000</maxLodPixels>
+				<minFadeExtent>0</minFadeExtent>
+				<maxFadeExtent>0</maxFadeExtent>
+			</Lod>
+		</Region>
+		<Placemark>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+
+<table width-"472"><tr><td>
+<img src="http://www.steamingmules.com/images/kxl/HeaderGE-450.jpg" />
+<h3>The Keystone Mapping Project</h3>
+<p>The Keystone Mapping Project (KMP) is the most comprehensive public resource for detailed route information on the proposed Keystone XL Pipeline.  The pipeline stretches over 2,000 miles from Hardisty, Alberta to Port Arthur, Texas.  As neither TransCanada Corporation nor the U.S. Department of State (DOS) have been forthcoming with this project's GIS information, it is impossible to adequately evaluate the potential environmental impacts of the pipeline.  These maps here have been compiled from alternative public resources. On the KMP <a href="http://keystone.steamingmules.com/">website</a> one will find a discussion of the issues surrounding the Keystone XL route, additional maps, and image galleries. </p>
+
+<ul compact="compact" type="circle">
+	<li>More information: <a href="http://keystone.steamingmules.com"><i>KMP Website&nbsp;&raquo;&raquo;</i></a></li>
+	<li>Stay Informed: <a href="http://tinyurl.com/keystonefb"><i>KMP on Facebook&nbsp;&raquo;&raquo;</i></a></li>
+</ul>
+
+<hr>
+<h3>Additional Maps:</h3>
+
+<p>To view detail, zoom using the Navigation Tool on the right:</p>
+
+<ul>
+<li><em><a href="http://www.steamingmules.com/keystone/KeystoneXL_EvacZ.kmz" onclick="_gaq.push(['_trackEvent','Outbound','KXL Vol Evac Zone',this.href]);" target="_blank">Keystone XL Oil Spill Voluntary Evacuation Zone (232 kb)&nbsp;&raquo;&raquo;</a></em></li>
+<li><em><a href="http://www.steamingmules.com/keystone/KXL_NEDEQfull090512.kmz" onclick="_gaq.push(['_trackEvent','Outbound','KXL NDEQ 090512full',this.href]);" target="_blank">Nebraska DEQ KXL Detail 9.5.12 (274 kb)&nbsp;&raquo;&raquo;</a></em></li>
+<li><em><a href="http://www.steamingmules.com/keystone/USGS_PrinplUS48Aqufrs2003.kmz" onclick="_gaq.push(['_trackEvent','Outbound','USGS Aquifers',this.href]);" target="_blank">Principal Aquifers, US Lower 48 (7.7 MB)&nbsp;&raquo;&raquo;</a></em></li>
+</ul>
+<hr>
+<h3>Usage Notes</h3>
+<ul compact="compact" type="circle">
+	<li>Use the Navigation Tool on the right to zoom and pan.</li>
+	<li>Activate the Sidebar (View Menu > Sidebar).  In the Places panel, turn layers on and off, or click on them to travel directly to landmarks.</li>
+	<li>Use the Search panel to determine your location in relation to the pipeline.</li>
+</ul>
+
+<hr>
+
+<p><i>These files are for personal use only. Distribution and posting to the Internet is not permitted without written permission.  All site contents &copy;Thomas Bachand 2012. </i></p>
+
+</td></tr></table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#KMPinfo</styleUrl>
+			<Point>
+				<coordinates>-102.0596134461352,39.30703097000249,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MP Canada</name>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Keystone XL</b><br>
+<b>Canadian Milepost Markers <br>&nbsp;&nbsp;&nbsp;&amp; Route Coordinates</b><br><br>
+<b>Source:</b> Unavailable<br>
+<b>Note:</b> Withheld by Canada.
+</div>]]></description>
+			<styleUrl>#BasicStyleMPTopX</styleUrl>
+			<Point>
+				<coordinates>-111.2769834158165,52.63812693421173,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MP MT DEQ</name>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Keystone XL</b><br>
+<b>Montana Centerline Milepost Markers</b><br><br>
+<b>Source:</b> US Fish and Wildlife Service. August 2012.<br>
+<b>Interval:</b> 1 mile<br>
+<b>Note:</b> Pipeline construction will occur within a 500' corridor. MDEQ evaluation based on Feb 2012 corridor. For waterbody crossings, cross-check MP markers against Waterbody Crossing table found in 2014 FSEIS.<br>
+<b>View:</b> Zoom [+] to ground level in this <a href="http://keystone.steamingmules.com/maps/keystone-xl-google-earth-downloads/" target="_blank">KMP Google Earth view</a>.
+<p><b><font color="#000000">More Maps &amp; Detail:</font></b> <font color="#555555"><a href="http://keystone.steamingmules.com" target="_blank">Keystone Mapping Project</a></font></p>
+</div>]]></description>
+			<styleUrl>#BasicStyleMPTop</styleUrl>
+			<Point>
+				<coordinates>-105.639890097,47.5335248607,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MP SD</name>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Keystone XL</b><br>
+<b>South Dakota Milepost Markers</b><br><br>
+<b>Source:</b> US Fish and Wildlife Service. August 2012.<br>
+<b>Note:</b> Pipeline construction will occur within a 500' corridor. SDNER evaluation based on Feb 2012 corridor. For waterbody crossings, cross-check MP markers against Waterbody Crossing table found in 2014 FSEIS.<br>
+<p><b><font color="#000000">More Maps &amp; Detail:</font></b> <font color="#555555"><a href="http://keystone.steamingmules.com" target="_blank">Keystone Mapping Project</a></font></p>
+</div>]]></description>
+			<styleUrl>#BasicStyleMPTop</styleUrl>
+			<Point>
+				<coordinates>-102.001358107189,44.5026711488988,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MP NE</name>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Keystone XL</b><br>
+<b>Nebraska Centerline Milepost Markers &amp; Waterbody Crossings</b><br><br>
+<b>Source:</b> Nebraska DEQ. Sept 2012.<br>
+<b>Interval:</b> 1/10th mile<br>
+<b>Note:</b> Pipeline construction will occur within a 500' corridor.<br>
+<b>View:</b> Zoom [+] to ground level in this <a href="http://keystone.steamingmules.com/maps/keystone-xl-google-earth-downloads/" target="_blank">KMP Google Earth view</a>.
+<p><b><font color="#000000">More Maps &amp; Detail:</font></b> <font color="#555555"><a href="http://keystone.steamingmules.com" target="_blank">Keystone Mapping Project</a></font></p>
+</div>]]></description>
+			<styleUrl>#BasicStyleMPTop</styleUrl>
+			<Point>
+				<coordinates>-97.973749,40.239149,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MP KS</name>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Keystone XL</b><br>
+<b>Kansas Milepost Markers Route Coordinates &amp; Waterbody Crossings</b><br><br>
+<b>Source:</b> Unavailable<br>
+<b>Note:</b> Withheld by State of Kansas, TransCanda Corporation, and the United States Department of State.
+<p><b><font color="#000000">More Maps &amp; Detail:</font></b> <font color="#555555"><a href="http://keystone.steamingmules.com" target="_blank">Keystone Mapping Project</a></font></p>
+</div>]]></description>
+			<styleUrl>#BasicStyleMPTopX</styleUrl>
+			<Point>
+				<coordinates>-96.84677889999999,38.5619087,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MP OK</name>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Keystone XL</b><br>
+<b>Oklahoma Milepost Markers Route Coordinates</b><br><br>
+<b>Source:</b> Unavailable<br>
+<b>Note:</b> Withheld by State of Oklahoma, TransCanda Corporation, and the United States Department of State.
+<p><b><font color="#000000">More Maps &amp; Detail:</font></b> <font color="#555555"><a href="http://keystone.steamingmules.com" target="_blank">Keystone Mapping Project</a></font></p>
+</div>]]></description>
+			<styleUrl>#BasicStyleMPTopX</styleUrl>
+			<Point>
+				<coordinates>-96.70031299999998,35.878422,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MP TX</name>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Keystone XL</b><br>
+<b>Texas Milepost Markers</b><br><br>
+<b>Source:</b> Unavailable<br>
+<b>Note:</b> Withheld by State of Texas, TransCanda Corporation, and the United States Department of State.
+<p><b><font color="#000000">More Maps &amp; Detail:</font></b> <font color="#555555"><a href="http://keystone.steamingmules.com" target="_blank">Keystone Mapping Project</a></font></p>
+</div>]]></description>
+			<styleUrl>#BasicStyleMPTopX</styleUrl>
+			<Point>
+				<coordinates>-94.91694099999999,31.85224,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

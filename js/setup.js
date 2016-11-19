@@ -40,6 +40,10 @@ var oilspill = d3.geo.path()
     .projection(projection)
     .pointRadius(3);
 
+var sd_milepost = d3.geo.path()
+    .projection(projection)
+    .pointRadius(3);
+
 var svg = d3.select("#map_container").append("svg")
     .attr("width", width)
     .attr("height", height);
@@ -60,9 +64,12 @@ queue()
     .defer(d3.json, "data/fraccidents.geojson")
     .defer(d3.json, "data/indian_reservations.geojson")
     .defer(d3.json, "data/oilspills.geojson")
+    .defer(d3.json, "data/sd_mileposts.geojson")
     .await(ready);
 
-function ready(error, us, keystone, dakota_access, phase4, waterbodies, waterwells, fraccidents, indian_reservations, oilspills) {
+function ready(error, us, keystone, dakota_access, phase4,
+                waterbodies, waterwells, fraccidents,
+                indian_reservations, oilspills, sd_mileposts) {
   if (error) throw error;
   svg.append("g")
       .attr("id", "states")
@@ -150,6 +157,29 @@ function ready(error, us, keystone, dakota_access, phase4, waterbodies, waterwel
     .on("click", oilspill_clicked);
 
     d3.select('#slider').call(d3.slider().min(0).max(10));
+
+    $("#states").click(function (e) {
+      console.log("hi");
+
+        if (centered){
+          $('#myModal').modal('show');
+        }
+        else {
+          $('#myModal').modal('hide');
+        }
+
+    });
+
+  svg.append("g")
+    .attr("id", "sd_mileposts")
+    .selectAll(".sd_milepost")
+    .data(sd_mileposts.features)
+    .enter()
+    .append("path")
+    .attr("class", "sd_milepost")
+    .attr("d", sd_milepost)
+    .on("click", sd_milepost_clicked);
+
 }
 
 
@@ -178,6 +208,9 @@ function oilspill_clicked(d) {
   center(d);
 }
 
+function sd_milepost_clicked(d) {
+
+}
 
 function center(d) {
   var x, y, k;
@@ -202,8 +235,10 @@ function center(d) {
       .duration(750)
       .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")scale(" + k + ")translate(" + -x + "," + -y + ")")
       .style("stroke-width", 1.5 / k + "px");
+
 }
 
+<<<<<<< HEAD
 $("g").click(function (e) {
       e.stopPropagation();
         if (document.getElementById("right_sidebar").style.width == "250px" && !centered){
@@ -214,4 +249,7 @@ $("g").click(function (e) {
         }
 
     });
+=======
+
+>>>>>>> 60add091db386670b98e9553746c572a208b9a67
 }

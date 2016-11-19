@@ -1,0 +1,140 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -102.0596134461352,
+                    39.30703097000249,
+                    0
+                ]
+            },
+            "properties": {
+                "styleUrl": "#KMPinfo",
+                "styleHash": "1bccd21d",
+                "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\n\n<head>\n\n<META http-equiv=\"Content-Type\" content=\"text/html\">\n\n</head>\n\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\n\n\n<table width-\"472\"><tr><td>\n<img src=\"http://www.steamingmules.com/images/kxl/HeaderGE-450.jpg\" />\n<h3>The Keystone Mapping Project</h3>\n<p>The Keystone Mapping Project (KMP) is the most comprehensive public resource for detailed route information on the proposed Keystone XL Pipeline.  The pipeline stretches over 2,000 miles from Hardisty, Alberta to Port Arthur, Texas.  As neither TransCanada Corporation nor the U.S. Department of State (DOS) have been forthcoming with this project's GIS information, it is impossible to adequately evaluate the potential environmental impacts of the pipeline.  These maps here have been compiled from alternative public resources. On the KMP <a href=\"http://keystone.steamingmules.com/\">website</a> one will find a discussion of the issues surrounding the Keystone XL route, additional maps, and image galleries. </p>\n\n<ul compact=\"compact\" type=\"circle\">\n\t<li>More information: <a href=\"http://keystone.steamingmules.com\"><i>KMP Website&nbsp;&raquo;&raquo;</i></a></li>\n\t<li>Stay Informed: <a href=\"http://tinyurl.com/keystonefb\"><i>KMP on Facebook&nbsp;&raquo;&raquo;</i></a></li>\n</ul>\n\n<hr>\n<h3>Additional Maps:</h3>\n\n<p>To view detail, zoom using the Navigation Tool on the right:</p>\n\n<ul>\n<li><em><a href=\"http://www.steamingmules.com/keystone/KeystoneXL_EvacZ.kmz\" onclick=\"_gaq.push(['_trackEvent','Outbound','KXL Vol Evac Zone',this.href]);\" target=\"_blank\">Keystone XL Oil Spill Voluntary Evacuation Zone (232 kb)&nbsp;&raquo;&raquo;</a></em></li>\n<li><em><a href=\"http://www.steamingmules.com/keystone/KXL_NEDEQfull090512.kmz\" onclick=\"_gaq.push(['_trackEvent','Outbound','KXL NDEQ 090512full',this.href]);\" target=\"_blank\">Nebraska DEQ KXL Detail 9.5.12 (274 kb)&nbsp;&raquo;&raquo;</a></em></li>\n<li><em><a href=\"http://www.steamingmules.com/keystone/USGS_PrinplUS48Aqufrs2003.kmz\" onclick=\"_gaq.push(['_trackEvent','Outbound','USGS Aquifers',this.href]);\" target=\"_blank\">Principal Aquifers, US Lower 48 (7.7 MB)&nbsp;&raquo;&raquo;</a></em></li>\n</ul>\n<hr>\n<h3>Usage Notes</h3>\n<ul compact=\"compact\" type=\"circle\">\n\t<li>Use the Navigation Tool on the right to zoom and pan.</li>\n\t<li>Activate the Sidebar (View Menu > Sidebar).  In the Places panel, turn layers on and off, or click on them to travel directly to landmarks.</li>\n\t<li>Use the Search panel to determine your location in relation to the pipeline.</li>\n</ul>\n\n<hr>\n\n<p><i>These files are for personal use only. Distribution and posting to the Internet is not permitted without written permission.  All site contents &copy;Thomas Bachand 2012. </i></p>\n\n</td></tr></table>\n\n</body>\n\n</html>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.2769834158165,
+                    52.63812693421173,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "MP Canada",
+                "styleUrl": "#BasicStyleMPTopX",
+                "styleHash": "-2244dc25",
+                "description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\">\n<b>Keystone XL</b><br>\n<b>Canadian Milepost Markers <br>&nbsp;&nbsp;&nbsp;&amp; Route Coordinates</b><br><br>\n<b>Source:</b> Unavailable<br>\n<b>Note:</b> Withheld by Canada.\n</div>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -105.639890097,
+                    47.5335248607,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "MP MT DEQ",
+                "styleUrl": "#BasicStyleMPTop",
+                "styleHash": "-5ad7f542",
+                "description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\">\n<b>Keystone XL</b><br>\n<b>Montana Centerline Milepost Markers</b><br><br>\n<b>Source:</b> US Fish and Wildlife Service. August 2012.<br>\n<b>Interval:</b> 1 mile<br>\n<b>Note:</b> Pipeline construction will occur within a 500' corridor. MDEQ evaluation based on Feb 2012 corridor. For waterbody crossings, cross-check MP markers against Waterbody Crossing table found in 2014 FSEIS.<br>\n<b>View:</b> Zoom [+] to ground level in this <a href=\"http://keystone.steamingmules.com/maps/keystone-xl-google-earth-downloads/\" target=\"_blank\">KMP Google Earth view</a>.\n<p><b><font color=\"#000000\">More Maps &amp; Detail:</font></b> <font color=\"#555555\"><a href=\"http://keystone.steamingmules.com\" target=\"_blank\">Keystone Mapping Project</a></font></p>\n</div>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -102.001358107189,
+                    44.5026711488988,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "MP SD",
+                "styleUrl": "#BasicStyleMPTop",
+                "styleHash": "-5ad7f542",
+                "description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\">\n<b>Keystone XL</b><br>\n<b>South Dakota Milepost Markers</b><br><br>\n<b>Source:</b> US Fish and Wildlife Service. August 2012.<br>\n<b>Note:</b> Pipeline construction will occur within a 500' corridor. SDNER evaluation based on Feb 2012 corridor. For waterbody crossings, cross-check MP markers against Waterbody Crossing table found in 2014 FSEIS.<br>\n<p><b><font color=\"#000000\">More Maps &amp; Detail:</font></b> <font color=\"#555555\"><a href=\"http://keystone.steamingmules.com\" target=\"_blank\">Keystone Mapping Project</a></font></p>\n</div>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.973749,
+                    40.239149,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "MP NE",
+                "styleUrl": "#BasicStyleMPTop",
+                "styleHash": "-5ad7f542",
+                "description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\">\n<b>Keystone XL</b><br>\n<b>Nebraska Centerline Milepost Markers &amp; Waterbody Crossings</b><br><br>\n<b>Source:</b> Nebraska DEQ. Sept 2012.<br>\n<b>Interval:</b> 1/10th mile<br>\n<b>Note:</b> Pipeline construction will occur within a 500' corridor.<br>\n<b>View:</b> Zoom [+] to ground level in this <a href=\"http://keystone.steamingmules.com/maps/keystone-xl-google-earth-downloads/\" target=\"_blank\">KMP Google Earth view</a>.\n<p><b><font color=\"#000000\">More Maps &amp; Detail:</font></b> <font color=\"#555555\"><a href=\"http://keystone.steamingmules.com\" target=\"_blank\">Keystone Mapping Project</a></font></p>\n</div>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -96.84677889999999,
+                    38.5619087,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "MP KS",
+                "styleUrl": "#BasicStyleMPTopX",
+                "styleHash": "-2244dc25",
+                "description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\">\n<b>Keystone XL</b><br>\n<b>Kansas Milepost Markers Route Coordinates &amp; Waterbody Crossings</b><br><br>\n<b>Source:</b> Unavailable<br>\n<b>Note:</b> Withheld by State of Kansas, TransCanda Corporation, and the United States Department of State.\n<p><b><font color=\"#000000\">More Maps &amp; Detail:</font></b> <font color=\"#555555\"><a href=\"http://keystone.steamingmules.com\" target=\"_blank\">Keystone Mapping Project</a></font></p>\n</div>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -96.70031299999998,
+                    35.878422,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "MP OK",
+                "styleUrl": "#BasicStyleMPTopX",
+                "styleHash": "-2244dc25",
+                "description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\">\n<b>Keystone XL</b><br>\n<b>Oklahoma Milepost Markers Route Coordinates</b><br><br>\n<b>Source:</b> Unavailable<br>\n<b>Note:</b> Withheld by State of Oklahoma, TransCanda Corporation, and the United States Department of State.\n<p><b><font color=\"#000000\">More Maps &amp; Detail:</font></b> <font color=\"#555555\"><a href=\"http://keystone.steamingmules.com\" target=\"_blank\">Keystone Mapping Project</a></font></p>\n</div>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -94.916941,
+                    31.85224,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "MP TX",
+                "styleUrl": "#BasicStyleMPTopX",
+                "styleHash": "-2244dc25",
+                "description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\">\n<b>Keystone XL</b><br>\n<b>Texas Milepost Markers</b><br><br>\n<b>Source:</b> Unavailable<br>\n<b>Note:</b> Withheld by State of Texas, TransCanda Corporation, and the United States Department of State.\n<p><b><font color=\"#000000\">More Maps &amp; Detail:</font></b> <font color=\"#555555\"><a href=\"http://keystone.steamingmules.com\" target=\"_blank\">Keystone Mapping Project</a></font></p>\n</div>"
+            }
+        }
+    ]
+}
