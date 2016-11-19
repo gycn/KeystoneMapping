@@ -26,7 +26,7 @@ var waterbody = d3.geo.path()
 
 var waterwell = d3.geo.path()
     .projection(projection)
-    .pointRadius(0.5);
+    .pointRadius(1);
 
 var fraccident = d3.geo.path()
     .projection(projection)
@@ -74,7 +74,7 @@ function ready(error, us, keystone, dakota_access, phase4, waterbodies, waterwel
         return d.id;
       })
       .on("click", state_clicked);
-
+      console.log(oilspills)
   svg.append("g")
       .attr("id", "borders")
       .append("path")
@@ -148,7 +148,11 @@ function ready(error, us, keystone, dakota_access, phase4, waterbodies, waterwel
     .attr("class", "oilspill")
     .attr("d", oilspill)
     .on("click", oilspill_clicked);
+
+    d3.select('#slider').call(d3.slider().min(0).max(10));
 }
+
+
 
 function state_clicked(d) {
   center(d);
@@ -189,7 +193,7 @@ function center(d) {
     y = height / 2;
     k = 1;
     centered = null;
-  }
+}
 
   svg.selectAll("g").selectAll("path")
       .classed("active", centered && function(d) { return d === centered; });
@@ -208,6 +212,6 @@ $("g").click(function (e) {
         else {
           document.getElementById("right_sidebar").style.width = "250px";
         }
-      
+
     });
 }

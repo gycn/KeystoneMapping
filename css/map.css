@@ -24,7 +24,7 @@
 }
 
 .pipeline_path {
-  stroke-width: 1.5px;
+  stroke-width: 3px;
   stroke: black;
   fill: none;
 }
@@ -47,6 +47,10 @@
 
 .oilspill {
   fill: brown;
+}
+
+.slider-wrapper {
+    width: 100px;
 }
 
 .sidenav {
