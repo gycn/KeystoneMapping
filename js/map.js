@@ -1,60 +1,76 @@
 function setupMap() {
-  
-  var width = $(window).width(),
-  height = $(window).height(),
-  scale0 = (width - 1),
-  centered;
-
-  var projection = d3.geo.albersUsa()
-      .scale(1070)
-      .translate([width / 2, height / 2]);
-
-  var path = d3.geo.path()
-      .projection(projection);
-
-  var zoom = d3.behavior.zoom()
-    .translate([width / 2, height / 2])
+//Map dimensions (in pixels)
+var width = $(window).width(),
+    height = $(window).height(),
+    centered  ;
+scale0 = width;
+//Map projection
+var projection = d3.geo.albersUsa()
     .scale(scale0)
-    .scaleExtent([scale0, 8 * scale0])
-    .on("zoom", zoomed);
+    .translate([width/2,height/2]) //translate to center the map in view
 
-  var svg = d3.select("body").append("svg")
-      .attr("width", width)
-      .attr("height", height);
+//Generate paths based on projection
+var state_path = d3.geo.path()
+    .projection(projection);
 
-  svg.append("rect")
-      .attr("class", "background")
-      .attr("width", width)
-      .attr("height", height);
+var pipeline_path = d3.geo.path()
+        .projection(projection);
+//Create an SVG
+var svg = d3.select("body").append("svg")
+    .attr("width", width)
+    .attr("height", height);
 
-  var g = svg.append("g");
+//Group for the map features
+var features = svg.append("g")
+    .attr("class","features");
 
-  svg
-    .call(zoom)
-    .call(zoom.event);
+//Create zoom/pan listener
+//Change [1,Infinity] to adjust the min/max zoom scale
+var zoom = d3.behavior.zoom()
+    .scaleExtent([1, 8])
+    .on("zoom",zoomed);
 
-  d3.json("data/us.json", function(error, us) {
-    if (error) throw error;
+svg.call(zoom);
 
-    g.append("g")
-        .attr("id", "states")
-      .selectAll("path")
-        .data(topojson.feature(us, us.objects.states).features)
-      .enter().append("path")
-        .attr("d", path)
+d3.json("data/us.geojson",function(error,geodata) {
+  if (error) return console.log(error); //unknown error, check the console
+  console.log(geodata)
+  //Create a path for each map feature in the data
+  features.selectAll(".state-path")
+    .data(geodata.features)
+    .enter()
+    .append("path")
+    .attr("d",state_path)
+    .attr("class", "state-path")
+    .on("click",clicked_state);
 
-    g.append("path")
-        .datum(topojson.mesh(us, us.objects.states, function(a, b) { return a !== b; }))
-        .attr("id", "state-borders")
-        .attr("d", path);
-  });
+});
 
-  function zoomed() {
-    projection
-        .translate(zoom.translate())
-        .scale(zoom.scale());
+d3.json("data/keystoneroute.geojson", function(error, geodata) {
+  if (error) return console.log(error); //unknown error, check the console
+  features.selectAll(".pipeline-path")
+    .data(geodata.features)
+    .enter()
+    .append("path")
+    .attr("d", pipeline_path)
+    .attr("class", "pipeline-path")
+    .on("click",clicked_path);
+});
 
-    g.selectAll("path")
-        .attr("d", path);
-  }
+// Add optional onClick events for features here
+// d.properties contains the attributes (e.g. d.properties.name, d.properties.population)
+function clicked_state(d,i) {
+
+}
+
+function clicked_path(d, i) {
+
+}
+
+//Update map on zoom/pan
+function zoomed() {
+  features.attr("transform", "translate(" + zoom.translate() + ")scale(" + zoom.scale() + ")")
+      .selectAll("path").style("stroke-width", 1 / zoom.scale() + "px" );
+}
+
 }
