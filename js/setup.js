@@ -258,18 +258,5 @@ function center(d) {
 
 }
 
-<<<<<<< HEAD
-$("g").click(function (e) {
-      e.stopPropagation();
-        if (document.getElementById("right_sidebar").style.width == "250px" && !centered){
-          document.getElementById("right_sidebar").style.width = "0";
-        }
-        else {
-          document.getElementById("right_sidebar").style.width = "250px";
-        }
 
-    });
-=======
-
->>>>>>> 60add091db386670b98e9553746c572a208b9a67
 }
