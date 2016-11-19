@@ -26,7 +26,7 @@ var waterbody = d3.geo.path()
 
 var waterwell = d3.geo.path()
     .projection(projection)
-    .pointRadius(0.5);
+    .pointRadius(1);
 
 var fraccident = d3.geo.path()
     .projection(projection)
@@ -67,8 +67,8 @@ queue()
     .defer(d3.json, "data/sd_mileposts.geojson")
     .await(ready);
 
-function ready(error, us, keystone, dakota_access, phase4, 
-                waterbodies, waterwells, fraccidents, 
+function ready(error, us, keystone, dakota_access, phase4,
+                waterbodies, waterwells, fraccidents,
                 indian_reservations, oilspills, sd_mileposts) {
 
   console.log(oilspills);
@@ -83,7 +83,7 @@ function ready(error, us, keystone, dakota_access, phase4,
         return d.id;
       })
       .on("click", state_clicked);
-
+      console.log(oilspills)
   svg.append("g")
       .attr("id", "borders")
       .append("path")
@@ -158,9 +158,11 @@ function ready(error, us, keystone, dakota_access, phase4,
     .attr("d", oilspill)
     .on("click", oilspill_clicked);
 
+    d3.select('#slider').call(d3.slider().min(0).max(10));
+
     $("#states").click(function (e) {
       console.log("hi");
-        
+
         if (centered){
           $('#myModal').modal('show');
         }
@@ -171,7 +173,7 @@ function ready(error, us, keystone, dakota_access, phase4,
           $('#myModal').modal('hide');
 
         }
-      
+
     });
 
   svg.append("g")
@@ -185,6 +187,8 @@ function ready(error, us, keystone, dakota_access, phase4,
     .on("click", sd_milepost_clicked);
 
 }
+
+
 
 function state_clicked(d) {
   center(d);
@@ -225,7 +229,7 @@ function oilspill_clicked(d) {
 }
 
 function sd_milepost_clicked(d) {
-  
+
 }
 
 function center(d) {
@@ -242,7 +246,7 @@ function center(d) {
     y = height / 2;
     k = 1;
     centered = null;
-  }
+}
 
   svg.selectAll("g").selectAll("path")
       .classed("active", centered && function(d) { return d === centered; });
@@ -254,5 +258,18 @@ function center(d) {
 
 }
 
+<<<<<<< HEAD
+$("g").click(function (e) {
+      e.stopPropagation();
+        if (document.getElementById("right_sidebar").style.width == "250px" && !centered){
+          document.getElementById("right_sidebar").style.width = "0";
+        }
+        else {
+          document.getElementById("right_sidebar").style.width = "250px";
+        }
 
+    });
+=======
+
+>>>>>>> 60add091db386670b98e9553746c572a208b9a67
 }

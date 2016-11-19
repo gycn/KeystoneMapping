@@ -7,11 +7,12 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    
+
     <!-- D3 -->
     <script src="http://cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
     <script src="//d3js.org/queue.v1.min.js"></script>
+    <script src="js/d3.slider.js"></script>
 
     <!-- nv -->
     <link href="nv.d3.css" rel="stylesheet" type="text/css">
@@ -23,6 +24,7 @@
     <script src="js/setup.js"></script>
     <script src="js/sidebar.js"></script>
 
+    <link rel="stylesheet" href="css/d3.slider.css" />
     <link rel="stylesheet" src="css/style.css">
 </head>
 
@@ -49,7 +51,7 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        
+
       </div>
     </div>
   </div>
@@ -60,6 +62,9 @@
   <div class="row" id="map_container">
 
   </div>
+</div>
+<div class = "slider-wrapper">
+<div id="slider"></div>
 </div>
 </body>
 
