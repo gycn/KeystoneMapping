@@ -70,6 +70,8 @@ queue()
 function ready(error, us, keystone, dakota_access, phase4, 
                 waterbodies, waterwells, fraccidents, 
                 indian_reservations, oilspills, sd_mileposts) {
+
+  console.log(oilspills);
   if (error) throw error;
   svg.append("g")
       .attr("id", "states")
@@ -163,7 +165,11 @@ function ready(error, us, keystone, dakota_access, phase4,
           $('#myModal').modal('show');
         }
         else {
+          $('.date').text('');
+          $('.location').text('');
+          $('.gallons').text('');
           $('#myModal').modal('hide');
+
         }
       
     });
@@ -201,7 +207,21 @@ function indian_reservation_clicked(d) {
 }
 
 function oilspill_clicked(d) {
+  $('#myModal').modal('show');
+  var k = "AIzaSyCAE091wVHTbUQEr_-mfutVZAxrRlREOik";
+  $('.date').text(d.properties.Date);
+  $.get("https://maps.googleapis.com/maps/api/geocode/json?latlng="+d.properties.Latitude+","+d.properties.Longitude+"&key="+k, function(data, status) {
+
+    console.log(data.results[0].formatted_address);
+    $('.location').text(data.results[0].formatted_address);
+
+
+  })
+  
+
+  $('.gallons').text(d.properties["amount leaked"]);
   center(d);
+  console.log(d);
 }
 
 function sd_milepost_clicked(d) {
