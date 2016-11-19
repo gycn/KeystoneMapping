@@ -3,6 +3,9 @@
   pointer-events: all;
 }
 
+#map_container {
+}
+
 #states {
   fill: #aaa;
 }
@@ -11,7 +14,7 @@
   fill: orange;
 }
 
-#state-borders {
+#borders-path {
   fill: none;
   stroke: #fff;
   stroke-width: 1.5px;
@@ -20,10 +23,30 @@
   pointer-events: none;
 }
 
-.pipeline-path {
+.pipeline_path {
   stroke-width: 1.5px;
   stroke: black;
   fill: none;
+}
+
+.waterbody{
+  fill: blue;
+}
+
+.waterwell {
+  fill: aqua;
+}
+
+.fraccident {
+  fill:red;
+}
+
+.indian_reservation {
+  fill:green;
+}
+
+.oilspill {
+  fill: brown;
 }
 
 .sidenav {

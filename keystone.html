@@ -6,7 +6,8 @@
     <!-- D3 -->
     <script src="http://cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
-    
+    <script src="//d3js.org/queue.v1.min.js"></script>
+
     <!-- nv -->
     <link href="nv.d3.css" rel="stylesheet" type="text/css">
     <script src="nv.d3.min.js"></script>
@@ -14,22 +15,22 @@
     <!-- custom -->
     <link rel="stylesheet" href="css/map.css">
     <script src="js/main_script.js"></script>
-    <script src="js/map.js"></script>
+    <script src="js/setup.js"></script>
     <script src="js/sidebar.js"></script>
 
     <link rel="stylesheet" src="css/style.css">
 </head>
 
 <body>
-<div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<div id="right_sidebar" class="sidenav">
   <a href="#">Insert some graphs here</a>
-  <div id = "chart"> 
-  	<svg></svg>
-  </div>
-  <script src="js/data.js"></script>
+  <div id="content" style="color:white;"></div>
 </div>
+<div class="container-fluid">
+  <div class="row" id="map_container">
 
+  </div>
+</div>
 </body>
 
 </html>
