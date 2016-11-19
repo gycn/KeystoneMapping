@@ -148,6 +148,18 @@ function ready(error, us, keystone, dakota_access, phase4, waterbodies, waterwel
     .attr("class", "oilspill")
     .attr("d", oilspill)
     .on("click", oilspill_clicked);
+
+    $("#states").click(function (e) {
+      console.log("hi");
+        
+        if (centered){
+          $('#myModal').modal('show');
+        }
+        else {
+          $('#myModal').modal('hide');
+        }
+      
+    });
 }
 
 function state_clicked(d) {
@@ -198,16 +210,8 @@ function center(d) {
       .duration(750)
       .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")scale(" + k + ")translate(" + -x + "," + -y + ")")
       .style("stroke-width", 1.5 / k + "px");
+
 }
 
-$("g").click(function (e) {
-      e.stopPropagation();
-        if (document.getElementById("right_sidebar").style.width == "250px" && !centered){
-          document.getElementById("right_sidebar").style.width = "0";
-        }
-        else {
-          document.getElementById("right_sidebar").style.width = "250px";
-        }
-      
-    });
+
 }
