@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>pointsthatmatter</name>
+	<open>1</open>
+	<LookAt>
+		<longitude>-100.81</longitude>
+		<latitude>40.66</latitude>
+		<altitude>5000000</altitude>
+		<heading>0</heading>
+		<tilt>0</tilt>
+		<range>500</range>
+		<altitudeMode>relativeToGround</altitudeMode>
+	</LookAt>
+	<StyleMap id="Style2-point-1-map">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#Style2-point-1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#Style2-point-1-hover</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="Style2-point-1-hover">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<Icon>
+				<href>https://d30y9cdsu7xlg0.cloudfront.net/png/156889-200.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+	</Style>
+  <Style id="red">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<Icon>
+				<href>http://www.clker.com/cliparts/T/G/b/7/r/A/red-dot-hi.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+	</Style>
+	<Style id="Style2-point-1">
+		<IconStyle>
+			<color>ffcccccc</color>
+			<Icon>
+				<href>https://d30y9cdsu7xlg0.cloudfront.net/png/156889-200.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+	</Style>
+
+	<Placemark>
+		<name>05-31-2010</name>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
+<b>Date:</b> 05-31-2010<br>
+<b>Location:</b> Carpenter, South Dakota<br>
+<b>Leaked(gallons):</b> 2<br>
+<b>Cause:</b> leaky valve<br>
+<b>Commodity:</b> crude oil<br></div>]]></description>
+		<styleUrl>#Style2-point-1-map</styleUrl>
+		<ExtendedData>
+			<Data name="Date">
+				<value>05-31-2010</value>
+			</Data>
+			<Data name="Latitude">
+				<value>44.6375</value>
+			</Data>
+			<Data name="Longitude">
+				<value>-97.916389</value>
+			</Data>
+			<Data name="amount leaked">
+				<value>10 gallons</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-97.916389,44.6375,0</coordinates>
+		</Point>
+	</Placemark>
+
+	<Placemark>
+		<name>06-03-2010</name>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
+<b>Date:</b>06-03-2010<br>
+<b>Location:</b>Howard, South Dakota<br>
+<b>Leaked(gallons):</b> 20<br>
+<b>Cause:</b> leak at pump station<br>
+<b>Commodity:</b> crude oil<br></div>]]></description>
+		<styleUrl>#Style2-point-1-map</styleUrl>
+		<ExtendedData>
+			<Data name="Date">
+				<value>06-03-2010</value>
+			</Data>
+			<Data name="Latitude">
+				<value>44.010556</value>
+			</Data>
+			<Data name="Longitude">
+				<value>-97.526389</value>
+			</Data>
+			<Data name="amount leaked">
+				<value>10 gallons</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-97.526389,44.010556,0</coordinates>
+		</Point>
+	</Placemark>
+
+	<Placemark>
+		<name>08-10-2010</name>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
+<b>Date:</b>08-10-2010<br>
+<b>Location:</b>Freeman, South Dakota<br>
+<b>Leaked(gallons):</b> 5<br>
+<b>Cause:</b> unknown<br>
+<b>Commodity:</b> crude oil<br></div>]]></description>
+		<styleUrl>#Style2-point-1-map</styleUrl>
+		<ExtendedData>
+			<Data name="Date">
+				<value>08-10-2010</value>
+			</Data>
+			<Data name="Latitude">
+				<value>43.352222</value>
+			</Data>
+			<Data name="Longitude">
+				<value>-97.434167</value>
+			</Data>
+			<Data name="amount leaked">
+				<value>5 gallons</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-97.434167,43.352222,0</coordinates>
+		</Point>
+	</Placemark>
+
+	<Placemark>
+		<name>08-19-2010</name>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
+<b>Date:</b>08-10-2010<br>
+<b>Location:</b>Hartington, Nebraska<br>
+<b>Leaked(gallons):</b> 10<br>
+<b>Cause:</b> equipment failure<br>
+<b>Commodity:</b> crude oil<br></div>]]></description>
+		<styleUrl>#Style2-point-1-map</styleUrl>
+		<ExtendedData>
+			<Data name="Date">
+				<value>08-19-2010</value>
+			</Data>
+			<Data name="Latitude">
+				<value>42.621111</value>
+			</Data>
+			<Data name="Longitude">
+				<value>-97.263889</value>
+			</Data>
+			<Data name="amount leaked">
+				<value>19 gallons</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-97.263889,42.621111,0</coordinates>
+		</Point>
+	</Placemark>
+
+	<Placemark>
+		<name>01-05-2011</name>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
+<b>Date:</b>01-05-2011<br>
+<b>Location:</b>Andover, South Dakota<br>
+<b>Leaked(gallons):</b> 10<br>
+<b>Cause:</b> faulty seal<br>
+<b>Commodity:</b> crude oil<br></div>]]></description>
+		<styleUrl>#Style2-point-1-map</styleUrl>
+		<ExtendedData>
+			<Data name="Date">
+				<value>01-05-2011</value>
+			</Data>
+			<Data name="Latitude">
+				<value>45.410556</value>
+			</Data>
+			<Data name="Longitude">
+				<value>-97.903611</value>
+			</Data>
+			<Data name="amount leaked">
+				<value>19 gallons</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-97.903611,45.410556,0</coordinates>
+		</Point>
+	</Placemark>
+
+	<Placemark>
+		<name>01-30-2010</name>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
+	<b>Date:</b>01-30-2010<br>
+	<b>Location:</b>Turney, Missouri<br>
+	<b>Leaked(gallons):</b> 10<br>
+	<b>Cause:</b> seal on pump failed<br>
+	<b>Commodity:</b> crude oil<br></div>]]></description>
+		<styleUrl>#Style2-point-1-map</styleUrl>
+		<ExtendedData>
+			<Data name="Date">
+				<value>01-30-2010</value>
+			</Data>
+			<Data name="Latitude">
+				<value>39.636111</value>
+			</Data>
+			<Data name="Longitude">
+				<value>-94.320833</value>
+			</Data>
+			<Data name="amount leaked">
+				<value>10 gallons</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-94.320833,39.636111,0</coordinates>
+		</Point>
+	</Placemark>
+
+	<Placemark>
+		<name>02-03-2011</name>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
+	<b>Date:</b>02-03-2011<br>
+	<b>Location:</b>Cushing, Oklahoma<br>
+	<b>Leaked(gallons):</b> 10<br>
+	<b>Cause:</b>equipment failure<br>
+	<b>Commodity:</b> crude oil<br></div>]]></description>
+		<styleUrl>#Style2-point-1-map</styleUrl>
+		<ExtendedData>
+			<Data name="Date">
+				<value>02-03-2011</value>
+			</Data>
+			<Data name="Latitude">
+				<value>35.9825</value>
+			</Data>
+			<Data name="Longitude">
+				<value>-96.764167</value>
+			</Data>
+			<Data name="amount leaked">
+				<value>10 gallons</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-96.7641673,35.9825,0</coordinates>
+		</Point>
+	</Placemark>
+
+	<Placemark>
+		<name>02-23-2011</name>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
+	<b>Date:</b>02-23-2011<br>
+	<b>Location:</b>Udall,Kansas<br>
+	<b>Leaked(gallons):</b> 10<br>
+	<b>Cause:</b>equipment failure<br>
+	<b>Commodity:</b> crude oil<br></div>]]></description>
+		<styleUrl>#Style2-point-1-map</styleUrl>
+		<ExtendedData>
+			<Data name="Date">
+				<value>02-23-2011</value>
+			</Data>
+			<Data name="Latitude">
+				<value>37.386944</value>
+			</Data>
+			<Data name="Longitude">
+				<value>-97.117778</value>
+			</Data>
+			<Data name="amount leaked">
+				<value>10 gallons</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-97.117778,37.386944,0</coordinates>
+		</Point>
+	</Placemark>
+
+		<Placemark>
+		<name>05-29-2011</name>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
+	<b>Date:</b>05-29-2011<br>
+	<b>Location:</b>Bendena,Kansas<br>
+	<b>Leaked(gallons):</b> 210<br>
+	<b>Cause:</b>unknown<br>
+	<b>Commodity:</b> crude oil<br></div>]]></description>
+		<styleUrl>#Style2-point-1-map</styleUrl>
+		<ExtendedData>
+			<Data name="Date">
+				<value>05-29-2011</value>
+			</Data>
+			<Data name="Latitude">
+				<value>39.741111</value>
+			</Data>
+			<Data name="Longitude">
+				<value>-95.179444</value>
+			</Data>
+			<Data name="amount leaked">
+				<value>210 gallons</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-95.179444,39.741111,0</coordinates>
+		</Point>
+	</Placemark>
+
+	<Placemark>
+		<name>04-02-2016</name>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
+	<b>Date:</b>04-02-2016<br>
+	<b>Location:</b>Freeman,Kansas<br>
+	<b>Leaked(gallons):</b> 168000<br>
+	<b>Cause:</b>unknown<br>
+	<b>Commodity:</b> crude oil<br></div>]]></description>
+		<styleUrl>#red</styleUrl>
+		<ExtendedData>
+			<Data name="Date">
+				<value>04-02-2016</value>
+			</Data>
+			<Data name="Latitude">
+				<value>43.352222</value>
+			</Data>
+			<Data name="Longitude">
+				<value>-97.4343167</value>
+			</Data>
+			<Data name="amount leaked">
+				<value>168000 gallons</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-97.4343167,43.352222,0</coordinates>
+		</Point>
+	</Placemark>
+
+	<Placemark>
+		<name>12-14-2011</name>
+		<snippet></snippet>
+		<description><![CDATA[<div class="googft-info-window">
+	<b>Date:</b>12-14-2011<br>
+	<b>Location:</b>White Eqgle, Oklahoma<br>
+	<b>Leaked(gallons):</b> 250<br>
+	<b>Cause:</b>leaky pipe<br>
+	<b>Commodity:</b> crude oil<br></div>]]></description>
+		<styleUrl>#Style2-point-1-map</styleUrl>
+		<ExtendedData>
+			<Data name="Date">
+				<value>12-14-2011</value>
+			</Data>
+			<Data name="Latitude">
+				<value>36.632156</value>
+			</Data>
+			<Data name="Longitude">
+				<value>-97.12586</value>
+			</Data>
+			<Data name="amount leaked">
+				<value>250 gallons</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-97.12586,36.632156,0</coordinates>
+		</Point>
+	</Placemark>
+
+		<Placemark>
+			<name>5-22-2011</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+		<b>Date:</b>5-22-2011<br>
+		<b>Location:</b>Seminole County, Oklahoma<br>
+		<b>Leaked(gallons):</b> 121<br>
+		<b>Cause:</b>leaky pipe<br>
+		<b>Commodity:</b> crude oil<br></div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name="Date">
+					<value>5-22-2011</value>
+				</Data>
+				<Data name="Latitude">
+					<value>35.22377</value>
+				</Data>
+				<Data name="Longitude">
+					<value>-96.44739</value>
+				</Data>
+				<Data name="amount leaked">
+					<value>121 gallons</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-96.44739,35.22377,0</coordinates>
+			</Point>
+		</Placemark>
+
+			<Placemark>
+				<name>05-07-2011</name>
+				<snippet></snippet>
+				<description><![CDATA[<div class="googft-info-window">
+			<b>Date:</b>05-07-2011<br>
+			<b>Location:</b>Brampton, North Dakota<br>
+			<b>Leaked(gallons):</b> 21000<br>
+			<b>Cause:</b>valve failure<br>
+			<b>Commodity:</b> crude oil<br></div>]]></description>
+				<styleUrl>#red</styleUrl>
+				<ExtendedData>
+					<Data name="Date">
+						<value>05-07-2011</value>
+					</Data>
+					<Data name="Latitude">
+						<value>45.978889</value>
+					</Data>
+					<Data name="Longitude">
+						<value>-97.810278</value>
+					</Data>
+					<Data name="amount leaked">
+						<value>21000 gallons</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-97.810278,45.978889,0</coordinates>
+				</Point>
+			</Placemark>
+      <Placemark>
+    		<name>03-08-2011</name>
+    		<snippet></snippet>
+    		<description><![CDATA[<div class="googft-info-window">
+    	<b>Date:</b>03-08-2011<br>
+    	<b>Location:</b>Brampton, North Dakota<br>
+    	<b>Leaked(gallons):</b> 5<br>
+    	<b>Cause:</b>operator error<br>
+    	<b>Commodity:</b> crude oil<br></div>]]></description>
+    		<styleUrl>#Style2-point-1-map</styleUrl>
+    		<ExtendedData>
+    			<Data name="Date">
+    				<value>03-08-2011</value>
+    			</Data>
+    			<Data name="Latitude">
+    				<value>45.978889</value>
+    			</Data>
+    			<Data name="Longitude">
+    				<value>-97.810278</value>
+    			</Data>
+    			<Data name="amount leaked">
+    				<value>5 gallons</value>
+    			</Data>
+    		</ExtendedData>
+    		<Point>
+    			<coordinates>-97.810278,45.978889,0</coordinates>
+    		</Point>
+    	</Placemark>
+
+    	<Placemark>
+    		<name>03-16-2011</name>
+    		<snippet></snippet>
+    		<description><![CDATA[<div class="googft-info-window">
+    	<b>Date:</b>03-16-2011<br>
+    	<b>Location:</b>Seneca,Kansas<br>
+    	<b>Leaked(gallons):</b> 216<br>
+    	<b>Cause:</b>equipment failure<br>
+    	<b>Commodity:</b> crude oil<br></div>]]></description>
+    		<styleUrl>#Style2-point-1-map</styleUrl>
+    		<ExtendedData>
+    			<Data name="Date">
+    				<value>03-16-2011</value>
+    			</Data>
+    			<Data name="Latitude">
+    				<value>39.835556</value>
+    			</Data>
+    			<Data name="Longitude">
+    				<value>-96.066111</value>
+    			</Data>
+    			<Data name="amount leaked">
+    				<value>216 gallons</value>
+    			</Data>
+    		</ExtendedData>
+    		<Point>
+    			<coordinates>-96.066111,39.835556,0</coordinates>
+    		</Point>
+    	</Placemark>
+      
+		</Document>
+</kml>

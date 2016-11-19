@@ -1,0 +1,56 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.923325,
+                    42.068727,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Major Waterbody NE",
+                "styleUrl": "#BasicStyleWbody",
+                "styleHash": "44ef35f3",
+                "description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\">\n<b>Keystone XL</b><br>\n<b>Major Waterbody Crossings, Nebraska</b><br><br>\n<b>Source:</b> TransCanda Corporation (by NE DEQ)<br>\n<b>View:</b> Zoom [+] to ground level in this <a href=\"http://keystone.steamingmules.com/maps/keystone-xl-google-earth-downloads/\" target=\"_blank\">KMP Google Earth view</a>.\n<p><b><font color=\"#000000\">More Maps &amp; Detail:</font></b> <font color=\"#555555\"><a href=\"http://keystone.steamingmules.com\" target=\"_blank\">Keystone Mapping Project</a></font></p>\n</div>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -96.22282200000001,
+                    34.371102,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "GC Waterbody OK",
+                "styleUrl": "#BasicStyleWbody",
+                "styleHash": "44ef35f3",
+                "description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\">\n<b>Keystone XL</b><br>\n<b>Oklahoma Gulf Coast Waterbody Crossings &amp; Access Roads, USACE Tulsa District</b><br><br>\n<b>Source:</b> TransCanda Corporation (by FOIA)<br>\n<b>View:</b> Zoom [+] to ground level in this <a href=\"http://keystone.steamingmules.com/maps/keystone-xl-google-earth-downloads/\" target=\"_blank\">KMP Google Earth view</a>.\n<p><b><font color=\"#000000\">More Maps &amp; Detail:</font></b> <font color=\"#555555\"><a href=\"http://keystone.steamingmules.com\" target=\"_blank\">Keystone Mapping Project</a></font></p>\n</div>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -94.750494,
+                    30.453509,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "GC Waterbody TX",
+                "styleUrl": "#BasicStyleWbody",
+                "styleHash": "44ef35f3",
+                "description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\">\n<b>Keystone XL</b><br>\n<b>Texas Gulf Coast Waterbody Crossings &amp; Access Roads, USACE Ft. Worth and Galveston Districts</b><br><br>\n<b>Source:</b> TransCanda Corporation (by FOIA)<br>\n<b>View:</b> Zoom [+] to ground level in this <a href=\"http://keystone.steamingmules.com/maps/keystone-xl-google-earth-downloads/\" target=\"_blank\">KMP Google Earth view</a>.\n<p><b><font color=\"#000000\">More Maps &amp; Detail:</font></b> <font color=\"#555555\"><a href=\"http://keystone.steamingmules.com\" target=\"_blank\">Keystone Mapping Project</a></font></p>\n</div>"
+            }
+        }
+    ]
+}

@@ -1,0 +1,372 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.916389,
+                    44.6375,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "05-31-2010",
+                "styleUrl": "#Style2-point-1-map",
+                "styleHash": "-c0a8966",
+                "styleMapHash": {
+                    "normal": "#Style2-point-1",
+                    "highlight": "#Style2-point-1-hover"
+                },
+                "description": "<div class=\"googft-info-window\">\r\n<b>Date:</b> 05-31-2010<br>\r\n<b>Location:</b> Carpenter, South Dakota<br>\r\n<b>Leaked(gallons):</b> 2<br>\r\n<b>Cause:</b> leaky valve<br>\r\n<b>Commodity:</b> crude oil<br></div>",
+                "Date": "05-31-2010",
+                "Latitude": "44.6375",
+                "Longitude": "-97.916389",
+                "amount leaked": "10 gallons"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.526389,
+                    44.010556,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "06-03-2010",
+                "styleUrl": "#Style2-point-1-map",
+                "styleHash": "-c0a8966",
+                "styleMapHash": {
+                    "normal": "#Style2-point-1",
+                    "highlight": "#Style2-point-1-hover"
+                },
+                "description": "<div class=\"googft-info-window\">\r\n<b>Date:</b>06-03-2010<br>\r\n<b>Location:</b>Howard, South Dakota<br>\r\n<b>Leaked(gallons):</b> 20<br>\r\n<b>Cause:</b> leak at pump station<br>\r\n<b>Commodity:</b> crude oil<br></div>",
+                "Date": "06-03-2010",
+                "Latitude": "44.010556",
+                "Longitude": "-97.526389",
+                "amount leaked": "10 gallons"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.434167,
+                    43.352222,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "08-10-2010",
+                "styleUrl": "#Style2-point-1-map",
+                "styleHash": "-c0a8966",
+                "styleMapHash": {
+                    "normal": "#Style2-point-1",
+                    "highlight": "#Style2-point-1-hover"
+                },
+                "description": "<div class=\"googft-info-window\">\r\n<b>Date:</b>08-10-2010<br>\r\n<b>Location:</b>Freeman, South Dakota<br>\r\n<b>Leaked(gallons):</b> 5<br>\r\n<b>Cause:</b> unknown<br>\r\n<b>Commodity:</b> crude oil<br></div>",
+                "Date": "08-10-2010",
+                "Latitude": "43.352222",
+                "Longitude": "-97.434167",
+                "amount leaked": "5 gallons"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.263889,
+                    42.621111,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "08-19-2010",
+                "styleUrl": "#Style2-point-1-map",
+                "styleHash": "-c0a8966",
+                "styleMapHash": {
+                    "normal": "#Style2-point-1",
+                    "highlight": "#Style2-point-1-hover"
+                },
+                "description": "<div class=\"googft-info-window\">\r\n<b>Date:</b>08-10-2010<br>\r\n<b>Location:</b>Hartington, Nebraska<br>\r\n<b>Leaked(gallons):</b> 10<br>\r\n<b>Cause:</b> equipment failure<br>\r\n<b>Commodity:</b> crude oil<br></div>",
+                "Date": "08-19-2010",
+                "Latitude": "42.621111",
+                "Longitude": "-97.263889",
+                "amount leaked": "19 gallons"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.903611,
+                    45.410556,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "01-05-2011",
+                "styleUrl": "#Style2-point-1-map",
+                "styleHash": "-c0a8966",
+                "styleMapHash": {
+                    "normal": "#Style2-point-1",
+                    "highlight": "#Style2-point-1-hover"
+                },
+                "description": "<div class=\"googft-info-window\">\r\n<b>Date:</b>01-05-2011<br>\r\n<b>Location:</b>Andover, South Dakota<br>\r\n<b>Leaked(gallons):</b> 10<br>\r\n<b>Cause:</b> faulty seal<br>\r\n<b>Commodity:</b> crude oil<br></div>",
+                "Date": "01-05-2011",
+                "Latitude": "45.410556",
+                "Longitude": "-97.903611",
+                "amount leaked": "19 gallons"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -94.320833,
+                    39.636111,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "01-30-2010",
+                "styleUrl": "#Style2-point-1-map",
+                "styleHash": "-c0a8966",
+                "styleMapHash": {
+                    "normal": "#Style2-point-1",
+                    "highlight": "#Style2-point-1-hover"
+                },
+                "description": "<div class=\"googft-info-window\">\r\n\t<b>Date:</b>01-30-2010<br>\r\n\t<b>Location:</b>Turney, Missouri<br>\r\n\t<b>Leaked(gallons):</b> 10<br>\r\n\t<b>Cause:</b> seal on pump failed<br>\r\n\t<b>Commodity:</b> crude oil<br></div>",
+                "Date": "01-30-2010",
+                "Latitude": "39.636111",
+                "Longitude": "-94.320833",
+                "amount leaked": "10 gallons"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -96.7641673,
+                    35.9825,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "02-03-2011",
+                "styleUrl": "#Style2-point-1-map",
+                "styleHash": "-c0a8966",
+                "styleMapHash": {
+                    "normal": "#Style2-point-1",
+                    "highlight": "#Style2-point-1-hover"
+                },
+                "description": "<div class=\"googft-info-window\">\r\n\t<b>Date:</b>02-03-2011<br>\r\n\t<b>Location:</b>Cushing, Oklahoma<br>\r\n\t<b>Leaked(gallons):</b> 10<br>\r\n\t<b>Cause:</b>equipment failure<br>\r\n\t<b>Commodity:</b> crude oil<br></div>",
+                "Date": "02-03-2011",
+                "Latitude": "35.9825",
+                "Longitude": "-96.764167",
+                "amount leaked": "10 gallons"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.117778,
+                    37.386944,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "02-23-2011",
+                "styleUrl": "#Style2-point-1-map",
+                "styleHash": "-c0a8966",
+                "styleMapHash": {
+                    "normal": "#Style2-point-1",
+                    "highlight": "#Style2-point-1-hover"
+                },
+                "description": "<div class=\"googft-info-window\">\r\n\t<b>Date:</b>02-23-2011<br>\r\n\t<b>Location:</b>Udall,Kansas<br>\r\n\t<b>Leaked(gallons):</b> 10<br>\r\n\t<b>Cause:</b>equipment failure<br>\r\n\t<b>Commodity:</b> crude oil<br></div>",
+                "Date": "02-23-2011",
+                "Latitude": "37.386944",
+                "Longitude": "-97.117778",
+                "amount leaked": "10 gallons"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -95.179444,
+                    39.741111,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "05-29-2011",
+                "styleUrl": "#Style2-point-1-map",
+                "styleHash": "-c0a8966",
+                "styleMapHash": {
+                    "normal": "#Style2-point-1",
+                    "highlight": "#Style2-point-1-hover"
+                },
+                "description": "<div class=\"googft-info-window\">\r\n\t<b>Date:</b>05-29-2011<br>\r\n\t<b>Location:</b>Bendena,Kansas<br>\r\n\t<b>Leaked(gallons):</b> 210<br>\r\n\t<b>Cause:</b>unknown<br>\r\n\t<b>Commodity:</b> crude oil<br></div>",
+                "Date": "05-29-2011",
+                "Latitude": "39.741111",
+                "Longitude": "-95.179444",
+                "amount leaked": "210 gallons"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.4343167,
+                    43.352222,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "04-02-2016",
+                "styleUrl": "#red",
+                "styleHash": "-5a3e94d7",
+                "description": "<div class=\"googft-info-window\">\r\n\t<b>Date:</b>04-02-2016<br>\r\n\t<b>Location:</b>Freeman,Kansas<br>\r\n\t<b>Leaked(gallons):</b> 168000<br>\r\n\t<b>Cause:</b>unknown<br>\r\n\t<b>Commodity:</b> crude oil<br></div>",
+                "Date": "04-02-2016",
+                "Latitude": "43.352222",
+                "Longitude": "-97.4343167",
+                "amount leaked": "168000 gallons"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.12586,
+                    36.632156,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "12-14-2011",
+                "styleUrl": "#Style2-point-1-map",
+                "styleHash": "-c0a8966",
+                "styleMapHash": {
+                    "normal": "#Style2-point-1",
+                    "highlight": "#Style2-point-1-hover"
+                },
+                "description": "<div class=\"googft-info-window\">\r\n\t<b>Date:</b>12-14-2011<br>\r\n\t<b>Location:</b>White Eqgle, Oklahoma<br>\r\n\t<b>Leaked(gallons):</b> 250<br>\r\n\t<b>Cause:</b>leaky pipe<br>\r\n\t<b>Commodity:</b> crude oil<br></div>",
+                "Date": "12-14-2011",
+                "Latitude": "36.632156",
+                "Longitude": "-97.12586",
+                "amount leaked": "250 gallons"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -96.44739,
+                    35.22377,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "5-22-2011",
+                "styleUrl": "#Style2-point-1-map",
+                "styleHash": "-c0a8966",
+                "styleMapHash": {
+                    "normal": "#Style2-point-1",
+                    "highlight": "#Style2-point-1-hover"
+                },
+                "description": "<div class=\"googft-info-window\">\r\n\t\t<b>Date:</b>5-22-2011<br>\r\n\t\t<b>Location:</b>Seminole County, Oklahoma<br>\r\n\t\t<b>Leaked(gallons):</b> 121<br>\r\n\t\t<b>Cause:</b>leaky pipe<br>\r\n\t\t<b>Commodity:</b> crude oil<br></div>",
+                "Date": "5-22-2011",
+                "Latitude": "35.22377",
+                "Longitude": "-96.44739",
+                "amount leaked": "121 gallons"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.810278,
+                    45.978889,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "05-07-2011",
+                "styleUrl": "#red",
+                "styleHash": "-5a3e94d7",
+                "description": "<div class=\"googft-info-window\">\r\n\t\t\t<b>Date:</b>05-07-2011<br>\r\n\t\t\t<b>Location:</b>Brampton, North Dakota<br>\r\n\t\t\t<b>Leaked(gallons):</b> 21000<br>\r\n\t\t\t<b>Cause:</b>valve failure<br>\r\n\t\t\t<b>Commodity:</b> crude oil<br></div>",
+                "Date": "05-07-2011",
+                "Latitude": "45.978889",
+                "Longitude": "-97.810278",
+                "amount leaked": "21000 gallons"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.810278,
+                    45.978889,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "03-08-2011",
+                "styleUrl": "#Style2-point-1-map",
+                "styleHash": "-c0a8966",
+                "styleMapHash": {
+                    "normal": "#Style2-point-1",
+                    "highlight": "#Style2-point-1-hover"
+                },
+                "description": "<div class=\"googft-info-window\">\r\n    \t<b>Date:</b>03-08-2011<br>\r\n    \t<b>Location:</b>Brampton, North Dakota<br>\r\n    \t<b>Leaked(gallons):</b> 5<br>\r\n    \t<b>Cause:</b>operator error<br>\r\n    \t<b>Commodity:</b> crude oil<br></div>",
+                "Date": "03-08-2011",
+                "Latitude": "45.978889",
+                "Longitude": "-97.810278",
+                "amount leaked": "5 gallons"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -96.066111,
+                    39.835556,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "03-16-2011",
+                "styleUrl": "#Style2-point-1-map",
+                "styleHash": "-c0a8966",
+                "styleMapHash": {
+                    "normal": "#Style2-point-1",
+                    "highlight": "#Style2-point-1-hover"
+                },
+                "description": "<div class=\"googft-info-window\">\r\n    \t<b>Date:</b>03-16-2011<br>\r\n    \t<b>Location:</b>Seneca,Kansas<br>\r\n    \t<b>Leaked(gallons):</b> 216<br>\r\n    \t<b>Cause:</b>equipment failure<br>\r\n    \t<b>Commodity:</b> crude oil<br></div>",
+                "Date": "03-16-2011",
+                "Latitude": "39.835556",
+                "Longitude": "-96.066111",
+                "amount leaked": "216 gallons"
+            }
+        }
+    ]
+}

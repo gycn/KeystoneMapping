@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Keystone XL: Top Level Waterbody</name>
+	<Style id="BasicStyleWbody">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.steamingmules.com/images/kxl/wbody.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+	</Style>
+	<Folder id="Fusiontables">
+		<name>KXL_WB_TopLevel</name>
+		<Region id="ID">
+			<LatLonAltBox>
+				<north>35.92732</north>
+				<south>29.99646</south>
+				<east>-94.09740299999999</east>
+				<west>-96.747311</west>
+				<minAltitude>0</minAltitude>
+				<maxAltitude>0</maxAltitude>
+				<altitudeMode>clampToGround</altitudeMode>
+			</LatLonAltBox>
+			<Lod>
+				<minLodPixels>12</minLodPixels>
+				<maxLodPixels>900</maxLodPixels>
+				<minFadeExtent>0</minFadeExtent>
+				<maxFadeExtent>0</maxFadeExtent>
+			</Lod>
+		</Region>
+		<Placemark>
+			<name>Major Waterbody NE</name>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Keystone XL</b><br>
+<b>Major Waterbody Crossings, Nebraska</b><br><br>
+<b>Source:</b> TransCanda Corporation (by NE DEQ)<br>
+<b>View:</b> Zoom [+] to ground level in this <a href="http://keystone.steamingmules.com/maps/keystone-xl-google-earth-downloads/" target="_blank">KMP Google Earth view</a>.
+<p><b><font color="#000000">More Maps &amp; Detail:</font></b> <font color="#555555"><a href="http://keystone.steamingmules.com" target="_blank">Keystone Mapping Project</a></font></p>
+</div>]]></description>
+			<styleUrl>#BasicStyleWbody</styleUrl>
+			<Point>
+				<coordinates>-97.92332500000001,42.068727,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GC Waterbody OK</name>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Keystone XL</b><br>
+<b>Oklahoma Gulf Coast Waterbody Crossings &amp; Access Roads, USACE Tulsa District</b><br><br>
+<b>Source:</b> TransCanda Corporation (by FOIA)<br>
+<b>View:</b> Zoom [+] to ground level in this <a href="http://keystone.steamingmules.com/maps/keystone-xl-google-earth-downloads/" target="_blank">KMP Google Earth view</a>.
+<p><b><font color="#000000">More Maps &amp; Detail:</font></b> <font color="#555555"><a href="http://keystone.steamingmules.com" target="_blank">Keystone Mapping Project</a></font></p>
+</div>]]></description>
+			<styleUrl>#BasicStyleWbody</styleUrl>
+			<Point>
+				<coordinates>-96.22282200000001,34.371102,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GC Waterbody TX</name>
+			<description><![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Keystone XL</b><br>
+<b>Texas Gulf Coast Waterbody Crossings &amp; Access Roads, USACE Ft. Worth and Galveston Districts</b><br><br>
+<b>Source:</b> TransCanda Corporation (by FOIA)<br>
+<b>View:</b> Zoom [+] to ground level in this <a href="http://keystone.steamingmules.com/maps/keystone-xl-google-earth-downloads/" target="_blank">KMP Google Earth view</a>.
+<p><b><font color="#000000">More Maps &amp; Detail:</font></b> <font color="#555555"><a href="http://keystone.steamingmules.com" target="_blank">Keystone Mapping Project</a></font></p>
+</div>]]></description>
+			<styleUrl>#BasicStyleWbody</styleUrl>
+			<Point>
+				<coordinates>-94.750494,30.453509,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
