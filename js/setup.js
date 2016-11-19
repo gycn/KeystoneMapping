@@ -27,7 +27,7 @@ var waterbody = d3.geo.path()
 
 var waterwell = d3.geo.path()
     .projection(projection)
-    .pointRadius(0.5);
+    .pointRadius(1);
 
 var fraccident = d3.geo.path()
     .projection(projection)
@@ -86,10 +86,11 @@ queue()
     .defer(d3.json, "data/sd_mileposts.geojson")
     .await(ready);
 
-
-function ready(error, us, keystone, dakota_access, phase4, 
-                waterbodies, waterwells, fraccidents, 
+function ready(error, us, keystone, dakota_access, phase4,
+                waterbodies, waterwells, fraccidents,
                 indian_reservations, oilspills, sd_mileposts) {
+
+  console.log(oilspills);
   if (error) throw error;
 
   svg.append("g")
@@ -178,6 +179,31 @@ function ready(error, us, keystone, dakota_access, phase4,
     .attr("d", oilspill)
     .on("click", oilspill_clicked)
 
+    d3.select('#slider').call(d3.slider().min(0).max(10));
+
+    $("#states").click(function (e) {
+      console.log("hi");
+
+        if (centered){
+          $('#myModal').modal('show');
+        }
+        else {
+          $('.date').empty();
+          $('.location').empty();
+          $('.gallons').empty();
+          $('#myModal').modal('hide');
+
+        }
+
+    });
+    $(".close").click(function (e) {
+      $('.date').empty();
+          $('.location').empty();
+          $('.gallons').empty();
+          $('#myModal').modal('hide');
+      
+    });
+
   svg.append("g")
     .attr("id", "sd_mileposts")
     .selectAll(".sd_milepost")
@@ -188,7 +214,11 @@ function ready(error, us, keystone, dakota_access, phase4,
     .attr("d", sd_milepost)
     .on("click", sd_milepost_clicked)
     .call(drag);
+
+>>>>>>> 60e813d893ce4aec7731267867d26a60ba5c6af7
 }
+
+
 
 function state_clicked(d) {
   center(d);
@@ -211,7 +241,21 @@ function indian_reservation_clicked(d) {
 }
 
 function oilspill_clicked(d) {
+  $('#myModal').modal('show');
+  var k = "AIzaSyCAE091wVHTbUQEr_-mfutVZAxrRlREOik";
+  $('.date').text(d.properties.Date);
+  $.get("https://maps.googleapis.com/maps/api/geocode/json?latlng="+d.properties.Latitude+","+d.properties.Longitude+"&key="+k, function(data, status) {
+
+    console.log(data.results[0].formatted_address);
+    $('.location').text(data.results[0].formatted_address);
+
+
+  })
+  
+
+  $('.gallons').text(d.properties["amount leaked"]);
   center(d);
+  console.log(d);
 }
 
 function sd_milepost_clicked(d) {
@@ -232,7 +276,7 @@ function center(d) {
     y = height / 2;
     k = 1;
     centered = null;
-  }
+}
 
   svg.selectAll("g").selectAll("path")
       .classed("active", centered && function(d) { return d === centered; });
@@ -241,7 +285,9 @@ function center(d) {
       .duration(750)
       .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")scale(" + k + ")translate(" + -x + "," + -y + ")")
       .style("stroke-width", 1.5 / k + "px");
+
 }
+
 
 function nozoom() {
   d3.event.preventDefault();

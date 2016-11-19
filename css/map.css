@@ -24,7 +24,7 @@
 }
 
 .pipeline_path {
-  stroke-width: 1.5px;
+  stroke-width: 3px;
   stroke: black;
   fill: none;
 }
@@ -47,6 +47,11 @@
 
 .oilspill {
   fill: brown;
+}
+
+/* this isnt changing the size of the slider for some reason */
+.slider-wrapper {
+    width: 100px;
 }
 
 .sidenav {
@@ -91,6 +96,7 @@
     transition: margin-left .5s;
     padding: 20px;
 }
+
 #chart {
 	height:250px;
 	width:250px;
@@ -98,4 +104,9 @@
 
 svg text {
     fill: white;
+}
+#myModal {
+left: auto; /* <-- Reset the default left value */
+  right: 20px;
+  height:300px;
 }
