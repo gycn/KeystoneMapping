@@ -46,11 +46,11 @@ var sd_milepost = d3.geo.path()
     .pointRadius(3);
 
 
-var point_types = ['.keystone_pipeline_path', '.dakota_access_pipeline_path', 
+var point_types = ['.keystone_pipeline_path', '.dakota_access_pipeline_path',
                 '.phase4_pipeline_path', '.waterbody', '.waterwell',
                 '.fraccident', '.indian_reservation', '.oilspill', '.sd_milepost']
 
-var point_paths = [keystone_pipeline, dakota_access_pipeline, phase4_pipeline, waterbody, waterwell, 
+var point_paths = [keystone_pipeline, dakota_access_pipeline, phase4_pipeline, waterbody, waterwell,
               fraccident, indian_reservation, oilspill, sd_milepost]
 
 var svg = d3.select("#map_container").append("svg")
@@ -201,7 +201,7 @@ function ready(error, us, keystone, dakota_access, phase4,
           $('.location').empty();
           $('.gallons').empty();
           $('#myModal').modal('hide');
-      
+
     });
 
   svg.append("g")
@@ -215,7 +215,6 @@ function ready(error, us, keystone, dakota_access, phase4,
     .on("click", sd_milepost_clicked)
     .call(drag);
 
->>>>>>> 60e813d893ce4aec7731267867d26a60ba5c6af7
 }
 
 
@@ -251,7 +250,7 @@ function oilspill_clicked(d) {
 
 
   })
-  
+
 
   $('.gallons').text(d.properties["amount leaked"]);
   center(d);
@@ -314,6 +313,6 @@ $("g").click(function (e) {
         else {
           document.getElementById("right_sidebar").style.width = "250px";
         }
-      
+
     });
 }

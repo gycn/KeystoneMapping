@@ -1,7 +1,27 @@
+@font-face {
+	font-family: Circular Book;
+	src: url(https://dl.dropboxusercontent.com/u/2725749/Flock/Fonts/CircularStd-Book.eot);
+	src: url(https://dl.dropboxusercontent.com/u/2725749/Flock/Fonts/CircularStd-Book.woff) format("woff"),
+	     url(https://dl.dropboxusercontent.com/u/2725749/Flock/Fonts/CircularStd-Book.ttf) format("truetype");
+	font-style: normal;
+	font-weight: 400
+}
+
+.circular-book {
+	font-family: 'Circular Book', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
 .background {
   fill: none;
   pointer-events: all;
 }
+
+
+.trump {
+    width:20%;
+    height:auto;
+}
+
 
 #map_container {
 }
