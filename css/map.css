@@ -58,3 +58,11 @@
     transition: margin-left .5s;
     padding: 20px;
 }
+#chart {
+	height:250px;
+	width:250px;
+}
+
+svg text {
+    fill: white;
+}
