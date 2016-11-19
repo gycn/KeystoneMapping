@@ -167,9 +167,9 @@ function ready(error, us, keystone, dakota_access, phase4,
           $('#myModal').modal('show');
         }
         else {
-          $('.date').text('');
-          $('.location').text('');
-          $('.gallons').text('');
+          $('.date').empty();
+          $('.location').empty();
+          $('.gallons').empty();
           $('#myModal').modal('hide');
 
         }
