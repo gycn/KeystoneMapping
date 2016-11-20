@@ -34,8 +34,6 @@ var fraccident = d3.geo.path()
     .pointRadius(3);
 
 var indian_reservation = d3.geo.path()
-    .projection(projection)
-    .pointRadius(3);
 
 var oilspill = d3.geo.path()
     .projection(projection)
@@ -43,23 +41,23 @@ var oilspill = d3.geo.path()
 
 var sd_milepost = d3.geo.path()
     .projection(projection)
-    .pointRadius(3);
+    .pointRadius(0.5);
 
 var data_names = ['Keystone Pipeline', 'Dakota Access Pipeline', 'Phase 4 Pipeline', 'Waterbodies', 'Waterwells',
-                  'Fracking Accidents', 'American Indian Reservations', 'Oil Spills', 'South Dakota Mileposts']
+                  'Fracking Accidents', 'Oil Spills']
 
 var point_types = ['keystone_pipeline_path', 'dakota_access_pipeline_path',
                 'phase4_pipeline_path', 'waterbody', 'waterwell',
-                'fraccident', 'indian_reservation', 'oilspill', 'sd_milepost']
+                'fraccident', 'oilspill']
 
 point_ids = ['keystone_pipeline', 'dakota_access_pipeline', 'phase4_pipeline', 'waterbody', 'waterwell',
-              'fraccident', 'indian_reservation', 'oilspill', 'sd_milepost']
+              'fraccident', 'oilspill']
 
 var point_paths = [keystone_pipeline, dakota_access_pipeline, phase4_pipeline, waterbody, waterwell,
-              fraccident, indian_reservation, oilspill, sd_milepost]
+              fraccident, oilspill, sd_milepost]
 
 var point_clicks = [keystone_pipeline_clicked, dakota_access_pipeline_clicked, phase4_pipeline_clicked, waterbody_clicked, waterwell_clicked,
-              fraccident_clicked, indian_reservation_clicked, oilspill_clicked, sd_milepost_clicked]
+              fraccident_clicked, oilspill_clicked, sd_milepost_clicked]
 
 var data = []
 
@@ -101,7 +99,7 @@ function ready(error, us, keystone, dakota_access, phase4,
                 indian_reservations, oilspills, sd_mileposts) {
   data.push(keystone, dakota_access, phase4,
                 waterbodies, waterwells, fraccidents,
-                indian_reservations, oilspills, sd_mileposts)
+                 oilspills)
 
   svg.append("g")
       .attr("id", "states")
@@ -121,17 +119,6 @@ function ready(error, us, keystone, dakota_access, phase4,
       .datum(topojson.mesh(us, us.objects.states, function(a, b) { return a !== b; }))
       .attr("id", "borders-path")
       .attr("d", path)
-
-    svg.append("g")
-    .attr("id", 'indian_reservation')
-    .selectAll('indian_reservation')
-    .data(indian_reservations.features)
-    .enter()
-    .append("polygon")
-    .call(drag)
-    .attr("d", indian_reservation)
-    .attr("class", 'indian_reservation')
-    .on("click", indian_reservation_clicked);
 
   for (var i=0; i < 3; i++) {
     plot_path(point_ids[i], point_types[i], point_paths[i], data[i])
@@ -157,7 +144,6 @@ function ready(error, us, keystone, dakota_access, phase4,
     } else {
       var legend_element = $('<li>').append($('<label>').append(checkbox).append(data_names[a])).appendTo($('#legend_body'));
       checkbox.click(function() {
-        console.log('hi')
         var ind = $(this).data('ind')
         if (!this.checked) {
           d3.selectAll('#' + point_ids[ind]).remove();
@@ -211,23 +197,24 @@ function dakota_access_pipeline_clicked(d) {
 function phase4_pipeline_clicked(d) {
 }
 function state_clicked(d) {
-  center(d);
+  center(d, true);
 }
 
 function waterbody_clicked(d) {
-  center(d);
+  console.log('hi')
+  center(d, false);
 }
 
 function waterwell_clicked(d) {
-  center(d);
+  center(d, false);
 }
 
 function fraccident_clicked(d) {
-  center(d);
+  center(d, false);
 }
 
 function indian_reservation_clicked(d) {
-  center(d);
+  center(d, false);
 }
 
 function oilspill_clicked(d) {
@@ -235,25 +222,21 @@ function oilspill_clicked(d) {
   var k = "AIzaSyCAE091wVHTbUQEr_-mfutVZAxrRlREOik";
   $('.date').text(d.properties.Date);
   $.get("https://maps.googleapis.com/maps/api/geocode/json?latlng="+d.properties.Latitude+","+d.properties.Longitude+"&key="+k, function(data, status) {
-
-    console.log(data.results[0].formatted_address);
     $('.location').text(data.results[0].formatted_address);
-
-
   })
 
 
   $('.gallons').text(d.properties["amount leaked"]);
-  center(d);
-  console.log(d);
+  center(d, false);
 }
 
 function sd_milepost_clicked(d) {
 
 }
 
-function center(d) {
+function center(d, zoomout) {
   if (d3.event.defaultPrevented) return;
+
   var x, y, k;
   if (d && !centered) {
     var centroid = path.centroid(d);
@@ -261,10 +244,16 @@ function center(d) {
     y = centroid[1];
     k = 4;
     centered = d;
-  } else {
+  } else if (zoomout) {
     x = width / 2;
     y = height / 2;
     k = 1;
+    centered = null;
+} else {
+  var centroid = path.centroid(d);
+    x = centroid[0];
+    y = centroid[1];
+    k = 4;
     centered = null;
 }
 

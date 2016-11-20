@@ -62,11 +62,15 @@
 }
 
 .indian_reservation {
-  stroke: 1px green;
+  fill:; green;
 }
 
 .oilspill {
   fill: brown;
+}
+
+.sd_milepost {
+  fill: green;
 }
 
 /* this isnt changing the size of the slider for some reason */
