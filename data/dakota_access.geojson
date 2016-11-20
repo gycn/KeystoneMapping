@@ -4,23 +4,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -101.7197733239023,
-                    46.87743942887839,
-                    0
-                ]
-            },
-            "properties": {
-                "name": "DAPL ND Route",
-                "styleUrl": "#BasicStyleTopX",
-                "styleHash": "1346757e",
-                "description": "<div class=\"googft-info-window\" style=\"font-family:sans-serif\">\n<b>ND Proposed Dakota Access Pipeline</b><br>\n<b>Route Length:</b> 358 miles <br>\n<b>Total ND-IL length:</b> 1150 miles<br>\n<b>Source:</b> Unavailable<br>\n<b>Note:</b> Withheld by North Dakota.<br>\n&copy;Thomas Bachand. All Rights Reserved.\n</div>"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [

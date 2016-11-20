@@ -99,7 +99,9 @@ queue()
 function ready(error, us, keystone, dakota_access, phase4,
                 waterbodies, waterwells, fraccidents,
                 indian_reservations, oilspills, sd_mileposts) {
-
+  data.push(keystone, dakota_access, phase4,
+                waterbodies, waterwells, fraccidents,
+                indian_reservations, oilspills, sd_mileposts)
 
   svg.append("g")
       .attr("id", "states")
@@ -120,46 +122,52 @@ function ready(error, us, keystone, dakota_access, phase4,
       .attr("id", "borders-path")
       .attr("d", path)
 
-  svg.append("g")
-    .attr("id", "keystone_pipeline")
-    .selectAll(".keystone_pipeline_path")
-    .data(keystone.features)
+    svg.append("g")
+    .attr("id", 'indian_reservation')
+    .selectAll('indian_reservation')
+    .data(indian_reservations.features)
     .enter()
-    .append("path")
-    .attr("d", keystone_pipeline)
-    .attr("class", "pipeline_path keystone_pipeline_path")
+    .append("polygon")
+    .call(drag)
+    .attr("d", indian_reservation)
+    .attr("class", 'indian_reservation')
+    .on("click", indian_reservation_clicked);
 
-  svg.append("g")
-    .attr("id", "phase4_pipeline")
-    .selectAll(".phase4_pipeline_path")
-    .data(phase4.features)
-    .enter()
-    .append("path")
-    .attr("d", phase4_pipeline)
-    .attr("class", "pipeline_path phase4_pipeline_path")
-
-  data.push(keystone, dakota_access, phase4,
-                waterbodies, waterwells, fraccidents,
-                indian_reservations, oilspills, sd_mileposts)
+  for (var i=0; i < 3; i++) {
+    plot_path(point_ids[i], point_types[i], point_paths[i], data[i])
+  }
 
   for (var a = 0; a < data.length; a++) {
       var checkbox = $('<input>', { type: 'checkbox', class: point_types[a]});
       checkbox.data('ind', a);
 
-      if (data_names[a] == 'Keystone Pipeline' || data_names[a] == 'Phase 4 Pipeline') {
+      if (data_names[a] == 'Keystone Pipeline' || data_names[a] == 'Phase 4 Pipeline' || data_names[a] == 'Dakota Access Pipeline') {
         checkbox.prop( "checked", true );
       }
+    if (!['Keystone Pipeline', 'Dakota Access Pipeline', 'Phase 4 Pipeline'].includes(data_names[a])) { 
      var legend_element = $('<li>').append($('<label>').append(checkbox).append(data_names[a])).appendTo($('#legend_body'));
       checkbox.click(function() {
         var ind = $(this).data('ind')
         if (!this.checked) {
-          console.log('hi')
           d3.selectAll('#' + point_ids[ind]).remove();
         } else {
-          plot_points(point_ids[ind], point_types[ind], point_paths[ind], data[ind], point_clicks[ind])
+          plot_points(point_ids[ind], point_types[ind], point_paths[ind], data[ind], point_clicks[ind]);
         }
-      })
+      });
+    } else {
+      var legend_element = $('<li>').append($('<label>').append(checkbox).append(data_names[a])).appendTo($('#legend_body'));
+      checkbox.click(function() {
+        console.log('hi')
+        var ind = $(this).data('ind')
+        if (!this.checked) {
+          d3.selectAll('#' + point_ids[ind]).remove();
+        } else {
+          plot_path(point_ids[ind], point_types[ind], point_paths[ind], data[ind]);
+        }
+      });
+    }
   }
+
 
 
     $(".close").click(function (e) {
@@ -182,6 +190,17 @@ function plot_points(id, cls, projection, data, click_func) {
     .attr("d", projection)
     .attr("class", cls)
     .on("click", click_func);
+}
+
+function plot_path(id, cls, projection, data) {
+  svg.append("g")
+    .attr("id", id)
+    .selectAll(cls)
+    .data(data.features)
+    .enter()
+    .append("path")
+    .attr("d", projection)
+    .attr("class", "pipeline_path " + cls)
 }
 
 function keystone_pipeline_clicked(d) {
@@ -276,13 +295,13 @@ function dragged() {
 
 
 $("g").click(function (e) {
-      e.stopPropagation();
-        if (document.getElementById("right_sidebar").style.width == "250px" && !centered){
-          document.getElementById("right_sidebar").style.width = "0";
-        }
-        else {
-          document.getElementById("right_sidebar").style.width = "250px";
-        }
+    e.stopPropagation();
+    if (document.getElementById("right_sidebar").style.width == "250px" && !centered){
+      document.getElementById("right_sidebar").style.width = "0";
+    }
+    else {
+      document.getElementById("right_sidebar").style.width = "250px";
+    }
 
     });
 }
